@@ -1,0 +1,102 @@
+[
+    {
+        "machineName": "FTC-10",
+        "mapName": "FTC10",
+        "imageName": "vendors/product/201512/32826900.png"
+    },
+    {
+        "machineName": "FTC-20",
+        "mapName": "FTC20",
+        "imageName": "vendors/product/201512/92197700.png"
+    },
+    {
+        "machineName": "FTC-20L",
+        "mapName": "FTC20L",
+        "imageName": "vendors/product/201508/20773300.jpg"
+    },
+    {
+        "machineName": "FTC-30",
+        "mapName": "FTC30",
+        "imageName": "vendors/product/201512/04272000.png"
+    },
+    {
+        "machineName": "FTC-300",
+        "mapName": "FTC300",
+        "imageName": "vendors/product/201602/44414800.png"
+    },
+    {
+        "machineName": "FTC-350",
+        "mapName": "FTC350",
+        "imageName": "vendors/product/201508/82899000.jpg"
+    },
+    {
+        "machineName": "FTC-350L",
+        "mapName": "FTC350L",
+        "imageName": "vendors/product/201602/31072600.png"
+    },
+    {
+        "machineName": "FTC-350XL",
+        "mapName": "FTC350XL",
+        "imageName": "vendors/product/201508/71884400.jpg"
+    },
+    {
+        "machineName": "FTC-350LY",
+        "mapName": "FTC350LY",
+        "imageName": "vendors/product/201508/64738100.jpg"
+    },
+    {
+        "machineName": "FTC-350SLY",
+        "mapName": "FTC640L",
+        "imageName": " vendors/product/201508/91843600.jpg"
+    },
+    {
+        "machineName": "FTC-450",
+        "mapName": "FTC640",
+        "imageName": " vendors/product/201508/30861200.jpg"
+    },
+    {
+        "machineName": "FTC-640",
+        "mapName": "FTC450",
+        "imageName": " vendors/product/201508/85502300.jpg"
+    },
+    {
+        "machineName": "FTC-640L",
+        "mapName": "FTC350SLY",
+        "imageName": " vendors/product/201508/85502300.jpg"
+    },
+    {
+        "machineName": "HT-30SY",
+        "mapName": "HT30SY",
+        "imageName": "vendors/product/201508/35491800.jpg"
+    },
+    {
+        "machineName": "HT-30MC",
+        "mapName": "HT30MC",
+        "imageName": "vendors/product/201508/74083400.jpg"
+    },
+    {
+        "machineName": "HT-30Y",
+        "mapName": "HT30Y",
+        "imageName": "vendors/product/201508/60311700.jpg"
+    },
+    {
+        "machineName": "FT-400",
+        "mapName": "FT400",
+        "imageName": "vendors/product/201508/37562800.jpg"
+    },
+    {
+        "machineName": "FT-350(MC)",
+        "mapName": "FT350",
+        "imageName": "vendors/product/201508/96510700.jpg"
+    },
+    {
+        "machineName": "FT-250SY(MC)",
+        "mapName": "FT250SYMC",
+        "imageName": "vendors/product/201508/89597700.jpg"
+    },
+    {
+        "machineName": "FT-250(MC)",
+        "mapName": "FT250SYMC",
+        "imageName": "vendors/product/201508/94633400.jpg"
+    }
+]

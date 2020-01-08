@@ -1,6 +1,6 @@
 {
     "machines": [{
-            "machine_name": "FTC10",
+            "machineName": "FTC10",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -80,7 +80,7 @@
             ]
         },
         {
-            "machine_name": "FTC640L",
+            "machineName": "FTC640L",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -180,7 +180,7 @@
             ]
         },
         {
-            "machine_name": "FTC20L",
+            "machineName": "FTC20L",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -260,7 +260,7 @@
             ]
         },
         {
-            "machine_name": "FTC20",
+            "machineName": "FTC20",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -340,7 +340,7 @@
             ]
         },
         {
-            "machine_name": "FTC300",
+            "machineName": "FTC300",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -440,7 +440,7 @@
             ]
         },
         {
-            "machine_name": "FTC30",
+            "machineName": "FTC30",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -520,7 +520,7 @@
             ]
         },
         {
-            "machine_name": "FTC350L",
+            "machineName": "FTC350L",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -620,7 +620,7 @@
             ]
         },
         {
-            "machine_name": "FTC350LY",
+            "machineName": "FTC350LY",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -720,7 +720,7 @@
             ]
         },
         {
-            "machine_name": "FTC350SLY",
+            "machineName": "FTC350SLY",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -820,7 +820,7 @@
             ]
         },
         {
-            "machine_name": "FTC350",
+            "machineName": "FTC350",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -920,7 +920,7 @@
             ]
         },
         {
-            "machine_name": "FTC350XL",
+            "machineName": "FTC350XL",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1020,7 +1020,7 @@
             ]
         },
         {
-            "machine_name": "FTC450",
+            "machineName": "FTC450",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1120,7 +1120,7 @@
             ]
         },
         {
-            "machine_name": "FTC640",
+            "machineName": "FTC640",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1220,7 +1220,7 @@
             ]
         },
         {
-            "machine_name": "tablesBoxway/FT250MC",
+            "machineName": "tablesBoxway/FT250MC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1276,7 +1276,7 @@
             ]
         },
         {
-            "machine_name": "tablesBoxway/FT250SYMC",
+            "machineName": "tablesBoxway/FT250SYMC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1332,7 +1332,7 @@
             ]
         },
         {
-            "machine_name": "tablesBoxway/FT350",
+            "machineName": "tablesBoxway/FT350",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1388,7 +1388,7 @@
             ]
         },
         {
-            "machine_name": "tablesBoxway/FT400",
+            "machineName": "tablesBoxway/FT400",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1444,7 +1444,7 @@
             ]
         },
         {
-            "machine_name": "tablesBoxway/HT30MC",
+            "machineName": "tablesBoxway/HT30MC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1508,7 +1508,7 @@
             ]
         },
         {
-            "machine_name": "tablesBoxway/HT30SY",
+            "machineName": "tablesBoxway/HT30SY",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1572,7 +1572,7 @@
             ]
         },
         {
-            "machine_name": "tablesBoxway/HT30Y",
+            "machineName": "tablesBoxway/HT30Y",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1636,7 +1636,7 @@
             ]
         },
         {
-            "machine_name": "tablesVerticalCNCLathes/FVT1000",
+            "machineName": "tablesVerticalCNCLathes/FVT1000",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1692,7 +1692,7 @@
             ]
         },
         {
-            "machine_name": "tablesVerticalCNCLathes/FVT600",
+            "machineName": "tablesVerticalCNCLathes/FVT600",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1748,7 +1748,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/FV1500A",
+            "machineName": "tablesverticalMClinear/FV1500A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1816,7 +1816,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/FV1600A",
+            "machineName": "tablesverticalMClinear/FV1600A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1884,7 +1884,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/FVP1000A",
+            "machineName": "tablesverticalMClinear/FVP1000A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1952,7 +1952,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/FVP1300A",
+            "machineName": "tablesverticalMClinear/FVP1300A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2020,7 +2020,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/FVP800A",
+            "machineName": "tablesverticalMClinear/FVP800A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2088,7 +2088,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/HV32APC",
+            "machineName": "tablesverticalMClinear/HV32APC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2156,7 +2156,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/HV40A",
+            "machineName": "tablesverticalMClinear/HV40A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2224,7 +2224,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/QMP23Aapc",
+            "machineName": "tablesverticalMClinear/QMP23Aapc",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2292,7 +2292,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/QMP23A",
+            "machineName": "tablesverticalMClinear/QMP23A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2360,7 +2360,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/QMP30A",
+            "machineName": "tablesverticalMClinear/QMP30A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2428,7 +2428,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/QMP32Aapc",
+            "machineName": "tablesverticalMClinear/QMP32Aapc",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2496,7 +2496,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/QMP32A",
+            "machineName": "tablesverticalMClinear/QMP32A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2564,7 +2564,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/QMP40A",
+            "machineName": "tablesverticalMClinear/QMP40A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2632,7 +2632,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP23AAPC",
+            "machineName": "tablesverticalMClinear/VMP23AAPC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2700,7 +2700,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP23A",
+            "machineName": "tablesverticalMClinear/VMP23A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2768,7 +2768,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP30A",
+            "machineName": "tablesverticalMClinear/VMP30A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2852,7 +2852,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP32AAPC",
+            "machineName": "tablesverticalMClinear/VMP32AAPC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2936,7 +2936,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP32A",
+            "machineName": "tablesverticalMClinear/VMP32A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3020,7 +3020,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP40A",
+            "machineName": "tablesverticalMClinear/VMP40A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3104,7 +3104,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP45A",
+            "machineName": "tablesverticalMClinear/VMP45A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3188,7 +3188,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP45S",
+            "machineName": "tablesverticalMClinear/VMP45S",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3272,7 +3272,7 @@
             ]
         },
         {
-            "machine_name": "tablesverticalMClinear/VMP50A",
+            "machineName": "tablesverticalMClinear/VMP50A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
