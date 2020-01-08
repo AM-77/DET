@@ -1,0 +1,3359 @@
+{
+    "machines": [{
+            "machine_name": "FTC10",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "Swing Over Bed/Front Cover",
+                            "value": "φ520mm"
+                        },
+                        {
+                            "feature": "Standard Turning Diameter",
+                            "value": "φ180mm"
+                        },
+                        {
+                            "feature": "Max. Turning Diameter",
+                            "value": "φ240mm"
+                        },
+                        {
+                            "feature": "Max. Turning Length",
+                            "value": "255mm"
+                        },
+                        {
+                            "feature": "Hydraulic Power Chuck Diameter",
+                            "value": "6”(8”)"
+                        },
+                        {
+                            "feature": "Swing Over Carriage",
+                            "value": "φ260mm"
+                        },
+                        {
+                            "feature": "X axis Travel",
+                            "value": "120+20mm"
+                        },
+                        {
+                            "feature": "Z axis Travel",
+                            "value": "290mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Nose",
+                            "value": "A2-5"
+                        },
+                        {
+                            "feature": "Spindle Speed",
+                            "value": "6,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Bore",
+                            "value": "φ56mm"
+                        },
+                        {
+                            "feature": "Through Hole Draw Tube",
+                            "value": "φ45mm"
+                        },
+                        {
+                            "feature": "Spindle Bearing Diameter",
+                            "value": "φ90mm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "MT#6"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid Traverse X axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid Traverse Z axis",
+                            "value": "24m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC640L",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "320+25(260+15)mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "1,500(1,240)mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Programmable"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "1,440mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ110mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "100mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-5"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "2,000rpm(2.Step)"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-11"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "15”mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ131mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ180mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "-(2,500)mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "20m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse X-axis",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "20m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC20L",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "Swing Over Bed/Front Cover",
+                            "value": "φ600mm"
+                        },
+                        {
+                            "feature": "Standard Turning Diameter",
+                            "value": "φ250mm"
+                        },
+                        {
+                            "feature": "Max. Turning Diameter",
+                            "value": "φ350mm"
+                        },
+                        {
+                            "feature": "Max. Turning Length",
+                            "value": "613mm"
+                        },
+                        {
+                            "feature": "Hydraulic Power Chuck Diameter",
+                            "value": "8”(10”)"
+                        },
+                        {
+                            "feature": "Swing Over Carriage",
+                            "value": "φ400mm"
+                        },
+                        {
+                            "feature": "X axis Travel",
+                            "value": "175+25mm"
+                        },
+                        {
+                            "feature": "Z axis Travel",
+                            "value": "650mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Nose",
+                            "value": "A2-6"
+                        },
+                        {
+                            "feature": "Spindle Speed",
+                            "value": "4,500rpm"
+                        },
+                        {
+                            "feature": "Spindle Bore",
+                            "value": "φ62mm"
+                        },
+                        {
+                            "feature": "Through Hole Draw Tube",
+                            "value": "φ52mm"
+                        },
+                        {
+                            "feature": "Spindle Bearing Diameter",
+                            "value": "φ100mm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "1:20"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid Traverse X axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid Traverse Z axis",
+                            "value": "24m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC20",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "Swing Over Bed/Front Cover",
+                            "value": "φ560mm"
+                        },
+                        {
+                            "feature": "Standard Turning Diameter",
+                            "value": "φ250mm"
+                        },
+                        {
+                            "feature": "Max. Turning Diameter",
+                            "value": "φ350mm"
+                        },
+                        {
+                            "feature": "Max. Turning Length",
+                            "value": "343mm"
+                        },
+                        {
+                            "feature": "Hydraulic Power Chuck Diameter",
+                            "value": "8”(10”)"
+                        },
+                        {
+                            "feature": "Swing Over Carriage",
+                            "value": "φ400mm"
+                        },
+                        {
+                            "feature": "X axis Travel",
+                            "value": "175+25mm"
+                        },
+                        {
+                            "feature": "Z axis Travel",
+                            "value": "380mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Nose",
+                            "value": "A2-6"
+                        },
+                        {
+                            "feature": "Spindle Speed",
+                            "value": "4,500rpm"
+                        },
+                        {
+                            "feature": "Spindle Bore",
+                            "value": "φ62mm"
+                        },
+                        {
+                            "feature": "Through Hole Draw Tube",
+                            "value": "φ52mm"
+                        },
+                        {
+                            "feature": "Spindle Bearing Diameter",
+                            "value": "φ100mm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "1:20"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid Traverse X axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid Traverse Z axis",
+                            "value": "24m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC300",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "150+20mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "350mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Manual"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "300mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ50mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "80mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-3"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "6,000rpm"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-5"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "φ169(6”)mm"
+                        },
+                        {
+                            "feature": "Spindle bore diameter",
+                            "value": "φ62mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ90mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "MT-6"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "None"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "XRapid traverse X-axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC30",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "Swing Over Bed/Front Cover",
+                            "value": "φ580mm"
+                        },
+                        {
+                            "feature": "Standard Turning Diameter",
+                            "value": "φ310mm"
+                        },
+                        {
+                            "feature": "Max. Turning Diameter",
+                            "value": "φ450mm"
+                        },
+                        {
+                            "feature": "Max. Turning Length",
+                            "value": "621mm"
+                        },
+                        {
+                            "feature": "Hydraulic Power Chuck Diameter",
+                            "value": "10”(12”)"
+                        },
+                        {
+                            "feature": "Swing Over Carriage",
+                            "value": "φ450mm"
+                        },
+                        {
+                            "feature": "X axis Travel",
+                            "value": "225+25mm"
+                        },
+                        {
+                            "feature": "Z axis Travel",
+                            "value": "670mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Nose",
+                            "value": "A2-8"
+                        },
+                        {
+                            "feature": "Spindle Speed",
+                            "value": "3,500rpm"
+                        },
+                        {
+                            "feature": "Spindle Bore",
+                            "value": "φ88mm"
+                        },
+                        {
+                            "feature": "Through Hole Draw Tube",
+                            "value": "φ75mm"
+                        },
+                        {
+                            "feature": "Spindle Bearing Diameter",
+                            "value": "φ130mm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "1:20"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid Traverse X axis",
+                            "value": "20m/min"
+                        },
+                        {
+                            "feature": "Rapid Traverse Z axis",
+                            "value": "20m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC350L",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "175+25mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "380mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Manual"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "290mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ70mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "90mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-4"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "45rpm-4,500rpm"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-6"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "φ210(8”)mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ62mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ100mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "None"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC350LY",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "175+25mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "80(±40)mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "625mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Manual"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "610mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ70mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "90mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-4"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "45rpm-4,500rpm"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-6"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "φ210(8”)mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ62mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ100mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "3,000mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "12m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC350SLY",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "175+25mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "80(±40)mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "555mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "660mm"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "None"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "45rpm-4,500rpm sub:6,000rpm"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-6 sub:A2-5"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "φ210mm sub:φ169mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ62mm sub:φ56mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ100mm sub:φ90mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20 sub:MT#6"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "3,000mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "12m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "12m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC350",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "175+25(188+2)mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "700(640)mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Manual"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "610mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ70mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "90mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-4"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "45rpm-4,500rpm"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-6"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "φ210(8”)mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ62mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ100(φ110)mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "-(4,000)mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC350XL",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "175+25(188+2)mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "1,040(1,010)mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Manual"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "950mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ70mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "90mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-4"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "45rpm-4,500rpm"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-6"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "φ210(8”)mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ62mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ100(φ110)mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "-(4,000)mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC450",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "225+25(205+5)mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "700(640)mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Manual"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "610mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ100mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "100mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-4"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "35rpm-3,500rpm"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-8"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "10”mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ88mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "-(4,000)mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "30m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "FTC640",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "320+25(260+15)mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "870(830)mm"
+                        },
+                        {
+                            "feature": "E-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Tailstock travel type",
+                            "value": "Programmable"
+                        },
+                        {
+                            "feature": "Tailstock travel",
+                            "value": "810mm"
+                        },
+                        {
+                            "feature": "Quill travel type",
+                            "value": "Hydraulic"
+                        },
+                        {
+                            "feature": "Quill diameter",
+                            "value": "φ110mm"
+                        },
+                        {
+                            "feature": "Quill stroke",
+                            "value": "100mm"
+                        },
+                        {
+                            "feature": "Quill taper",
+                            "value": "MT-5"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "2,000rpm(2.Step)"
+                        },
+                        {
+                            "feature": "Spindle nose",
+                            "value": "A2-11"
+                        },
+                        {
+                            "feature": "Hydraulic chuck diameter",
+                            "value": "15”mm"
+                        },
+                        {
+                            "feature": "Spindle bore diamete",
+                            "value": "φ131mm"
+                        },
+                        {
+                            "feature": "Spindle bearing diameter",
+                            "value": "φ180mm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "1:20"
+                        },
+                        {
+                            "feature": "Live tooling spindle speed",
+                            "value": "-(2,500)mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "Rapid traverse X-axis",
+                            "value": "20m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse Y-axis",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Rapid traverse Z-axis",
+                            "value": "20m/min"
+                        },
+                        {
+                            "feature": "Rapid traverse E-axis",
+                            "value": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesBoxway/FT250MC",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "210+20mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z/E-axis travel",
+                            "value": "1,120mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,500rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "A2-8"
+                        },
+                        {
+                            "feature": "Through-spindle hole diameter",
+                            "value": "88mm"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "130mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X Rapid traverse rate",
+                            "value": "24,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "24,000mm/min"
+                        },
+                        {
+                            "feature": "Z Rapid traverse rate",
+                            "value": "(24,000)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesBoxway/FT250SYMC",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "210+10mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "100mm(±50)"
+                        },
+                        {
+                            "feature": "Z/E-axis travel",
+                            "value": "1,050/947mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,500rpm/4,500rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "A2-8/A2-6"
+                        },
+                        {
+                            "feature": "Through-spindle hole diameter",
+                            "value": "88/56mm"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "130/100mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X Rapid traverse rate",
+                            "value": "24,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "24,000mm/min"
+                        },
+                        {
+                            "feature": "Z Rapid traverse rate",
+                            "value": "24,000/10,000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesBoxway/FT350",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "310+20mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z/E-axis travel",
+                            "value": "1,130mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,300rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "A2-8"
+                        },
+                        {
+                            "feature": "Through-spindle hole diameter",
+                            "value": "102mm"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "160mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X Rapid traverse rate",
+                            "value": "20,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "20,000mm/min"
+                        },
+                        {
+                            "feature": "Z Rapid traverse rate",
+                            "value": "(20,000)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesBoxway/FT400",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "265mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z/E-axis travel",
+                            "value": "750/1,000/1,500/2,000/3,000mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,200rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "A2-8"
+                        },
+                        {
+                            "feature": "Through-spindle hole diameter",
+                            "value": "102mm"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "140mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X Rapid traverse rate",
+                            "value": "20,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "None"
+                        },
+                        {
+                            "feature": "Z Rapid traverse rate",
+                            "value": "20,000mm/min(16m/min for Z axis travel≧1,500mm)(10m/min for Z axis travel≧3,000mm)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesBoxway/HT30MC",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "260mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "795mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "NONE"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,500rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "JIS A2-8"
+                        },
+                        {
+                            "feature": "Through-spindle hole diame",
+                            "value": "88mm"
+                        },
+                        {
+                            "feature": "Min spindle indexing angle",
+                            "value": "0.001゜"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "130mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X、Z Rapid traverse rate",
+                            "value": "30,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "NONE"
+                        },
+                        {
+                            "feature": "E Rapid traverse rate",
+                            "value": "7,000mm/min"
+                        },
+                        {
+                            "feature": "C Rapid traverse rate",
+                            "value": "80rpm"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesBoxway/HT30SY",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "260mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "795mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "100mm(±5mm)"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,500rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "JIS A2-8"
+                        },
+                        {
+                            "feature": "Through-spindle hole diame",
+                            "value": "88mm"
+                        },
+                        {
+                            "feature": "Min spindle indexing angle",
+                            "value": "0.001゜"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "130mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X、Z  Rapid traverse rate",
+                            "value": "30,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "10,000mm/min"
+                        },
+                        {
+                            "feature": "E Rapid traverse rate",
+                            "value": "30,000mm/min"
+                        },
+                        {
+                            "feature": "C Rapid traverse rate",
+                            "value": "80rpm"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesBoxway/HT30Y",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "260mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "795mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "100mm(±5mm)"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,500rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "JIS A2-8"
+                        },
+                        {
+                            "feature": "Through-spindle hole diame",
+                            "value": "88"
+                        },
+                        {
+                            "feature": "Min spindle indexing angle",
+                            "value": "0.001゜"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "130mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X、Z  Rapid traverse rate",
+                            "value": "30,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "10,000mm/min"
+                        },
+                        {
+                            "feature": "E Rapid traverse rate",
+                            "value": "7,000mm/min"
+                        },
+                        {
+                            "feature": "C Rapid traverse rate",
+                            "value": "80rpm"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesVerticalCNCLathes/FVT1000",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X axis travel",
+                            "value": "500+40mm"
+                        },
+                        {
+                            "feature": "Z axis travel",
+                            "value": "850mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle nose",
+                            "value": "JIS A2-15"
+                        },
+                        {
+                            "feature": "Hole trough spindle",
+                            "value": "1,500rpm"
+                        },
+                        {
+                            "feature": "Spindle speed",
+                            "value": "8,000rpm"
+                        },
+                        {
+                            "feature": "Spindle bore taper",
+                            "value": "1/20"
+                        },
+                        {
+                            "feature": "Spindle motor model",
+                            "value": "α40/6000+ZF_2K300"
+                        },
+                        {
+                            "feature": "Motor output(cont./30min)",
+                            "value": "37/45(49.3/60) Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X axis rapid traverse",
+                            "value": "20m/min"
+                        },
+                        {
+                            "feature": "Z axis rapid traverse",
+                            "value": "20m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesVerticalCNCLathes/FVT600",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X axis travel",
+                            "value": "310mm"
+                        },
+                        {
+                            "feature": "Z axis travel",
+                            "value": "500mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle nose",
+                            "value": "A2-11"
+                        },
+                        {
+                            "feature": "Hole trough spindle",
+                            "value": "57mm"
+                        },
+                        {
+                            "feature": "Spindle speed",
+                            "value": "2,000rpm"
+                        },
+                        {
+                            "feature": "Spindle bore taper",
+                            "value": "-"
+                        },
+                        {
+                            "feature": "Spindle motor model",
+                            "value": "αP40/6,000"
+                        },
+                        {
+                            "feature": "Motor output(cont./30min)",
+                            "value": "22Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X axis rapid traverse",
+                            "value": "20m/min"
+                        },
+                        {
+                            "feature": "Z axis rapid traverse",
+                            "value": "24m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/FV1500A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,525mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "760mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "650mm"
+                        },
+                        {
+                            "feature": "Table height from floor",
+                            "value": "150mm-800mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "810mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "6,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.50"
+                        },
+                        {
+                            "feature": "Dia. of spindle",
+                            "value": "φ100"
+                        },
+                        {
+                            "feature": "Spindle motor",
+                            "value": "11/15 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "15mm/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "15mm/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "12mm/min"
+                        },
+                        {
+                            "feature": "Cutting Feedrate",
+                            "value": "10mm/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/FV1600A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,600mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "800mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "800mm"
+                        },
+                        {
+                            "feature": "Table height from floor",
+                            "value": "100mm-900mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "850mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "8,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Dia. of spindle",
+                            "value": "φ70"
+                        },
+                        {
+                            "feature": "Spindle motor",
+                            "value": "9/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "18mm/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "18mm/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "15mm/min"
+                        },
+                        {
+                            "feature": "Cutting Feedrate",
+                            "value": "10mm/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/FVP1000A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,020mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "500mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Table height from floor",
+                            "value": "80mm-585mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "510mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Dia. of spindle",
+                            "value": "φ70"
+                        },
+                        {
+                            "feature": "Spindle motor",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "32mm/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "24mm/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "24mm/min"
+                        },
+                        {
+                            "feature": "Cutting Feedrate",
+                            "value": "15mm/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/FVP1300A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,300mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "610mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table height from floor",
+                            "value": "125mm-685mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "640mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Dia. of spindle",
+                            "value": "φ70"
+                        },
+                        {
+                            "feature": "Spindle motor",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "32mm/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "24mm/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "24mm/min"
+                        },
+                        {
+                            "feature": "Cutting Feedrate",
+                            "value": "15mm/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/FVP800A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "800mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "500mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Table height from floor",
+                            "value": "100mm-605mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "510mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Dia. of spindle",
+                            "value": "φ70"
+                        },
+                        {
+                            "feature": "Spindle motor",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "32mm/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "24mm/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "24mm/min"
+                        },
+                        {
+                            "feature": "Cutting Feedrate",
+                            "value": "15mm/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/HV32APC",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-Axis Travel",
+                            "value": "800mm"
+                        },
+                        {
+                            "feature": "Y-Axis Travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-Axis Travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "148mm-653mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "1,025mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "15/18.5 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "60m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "60m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "30m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/HV40A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-Axis Travel",
+                            "value": "1,000mm"
+                        },
+                        {
+                            "feature": "Y-Axis Travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-Axis Travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "100mm-605mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "970mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "15/18.5 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "60m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "60m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "30m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/QMP23Aapc",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis Travel",
+                            "value": "580mm"
+                        },
+                        {
+                            "feature": "Y-axis Travel",
+                            "value": "420mm"
+                        },
+                        {
+                            "feature": "Z-axis Travel",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "135mm-645mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "915mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "245mm-665mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "50rpm-12,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.30"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "3.7/5.5 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "48m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/QMP23A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis Travel",
+                            "value": "580mm"
+                        },
+                        {
+                            "feature": "Y-axis Travel",
+                            "value": "420mm"
+                        },
+                        {
+                            "feature": "Z-axis Travel",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "80mm-590mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "820mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "245mm-665mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "50rpm-12,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.30"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "3.7/5.5 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "48m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/QMP30A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis Travel",
+                            "value": "760mm"
+                        },
+                        {
+                            "feature": "Y-axis Travel",
+                            "value": "420mm"
+                        },
+                        {
+                            "feature": "Z-axis Travel",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "80mm-590mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "820mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "245mm-665mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "50rpm-12,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.30"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "3.7/5.5 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "48m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/QMP32Aapc",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis Travel",
+                            "value": "800mm"
+                        },
+                        {
+                            "feature": "Y-axis Travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-axis Travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "148mm-653mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "1,025mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "15/18.5 Kw(7.5/11)"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "30m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/QMP32A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis Travel",
+                            "value": "820mm"
+                        },
+                        {
+                            "feature": "Y-axis Travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-axis Travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "130mm-635mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "940mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "15/18.5 Kw(7.5/11)"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "48m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/QMP40A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis Travel",
+                            "value": "1,020mm"
+                        },
+                        {
+                            "feature": "Y-axis Travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-axis Travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle Nose to Table Surface",
+                            "value": "100mm-605mm"
+                        },
+                        {
+                            "feature": "Spindle Center to Column Surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table Surface to Floor",
+                            "value": "970mm"
+                        },
+                        {
+                            "feature": "Table Center to Column Surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle Speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle Taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle Power",
+                            "value": "15/18.5 Kw(7.5/11)"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis Rapid Traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis Rapid Traverse",
+                            "value": "30m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP23AAPC",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "580mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "420mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "135mm-645mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "455mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "915mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "245mm-665mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "48m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP23A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "580mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "420mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "80mm-590mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "455mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "820mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "245mm-665mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "48m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "48m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP30A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "760mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "420mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "510mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "80mm-590mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "455mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "820mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "245mm-665mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "36m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "36m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "36m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP32AAPC",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "820mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "148mm-653mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "1025mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "40m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "40m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "30m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP32A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "820mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "100mm-605mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "920mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "40m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "40m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "30m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP40A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,020mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "520mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "505mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "80mm-585mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "560mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "940mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "300mm-820mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "40m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "40m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "30m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP45A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,100mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "610mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "600mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "137mm-735mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "660mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "960mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "355mm-965mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm(BT40)/4,000rpm(BT50)"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40/7/24 Taper No.50"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm(BT40)/4,000rpm(BT50)"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40/7/24 Taper No.50"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "36m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "36m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "24m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP45S",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,100mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "700mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "600mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "200mm-800mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "770mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "950mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "45mm-1,20mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "6/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "6/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "24m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "15m/min"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "machine_name": "tablesverticalMClinear/VMP50A",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "1,300mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "610mm"
+                        },
+                        {
+                            "feature": "Z-axis travel",
+                            "value": "600mm"
+                        },
+                        {
+                            "feature": "Spindle nose to table surface",
+                            "value": "120mm-720mm"
+                        },
+                        {
+                            "feature": "Spindle center to column surface",
+                            "value": "660mm"
+                        },
+                        {
+                            "feature": "Table surface to floor",
+                            "value": "975mm"
+                        },
+                        {
+                            "feature": "Table center to column surface",
+                            "value": "355mm-965mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm(BT40)/4,000rpm(BT50)"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40/7/24 Taper No.50"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Spindle speed",
+                            "value": "10,000rpm(BT40)/4,000rpm(BT50)"
+                        },
+                        {
+                            "feature": "Spindle taper",
+                            "value": "7/24 Taper No.40/7/24 Taper No.50"
+                        },
+                        {
+                            "feature": "Spindle power",
+                            "value": "7.5/11 Kw"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X-axis rapid traverse",
+                            "value": "36m/min"
+                        },
+                        {
+                            "feature": "Y-axis rapid traverse",
+                            "value": "36m/min"
+                        },
+                        {
+                            "feature": "Z-axis rapid traverse",
+                            "value": "24m/min"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

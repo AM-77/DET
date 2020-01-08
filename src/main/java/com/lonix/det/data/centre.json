@@ -1,0 +1,152 @@
+[
+    {
+        "machine_name": "FV-1600(A)",
+        "map_name": "FV1600A",
+        "image_name": "vendors/product/201508/42277000.jpg"
+    },
+    {
+        "machine_name": "FV-1500(A)",
+        "map_name": "FV1500A",
+        "image_name": "vendors/product/201508/91620700.jpg"
+    },
+    {
+        "machine_name": "FVP-1300(A)",
+        "map_name": "FVP1300A",
+        "image_name": "vendors/product/201508/15416200.jpg"
+    },
+    {
+        "machine_name": "FVP-1000(A)",
+        "map_name": "FVP1000A",
+        "image_name": "vendors/product/201508/31791800.jpg"
+    },
+    {
+        "machine_name": "FVP-800(A)",
+        "map_name": "FVP800A",
+        "image_name": "vendors/product/201508/53291100.jpg"
+    },
+    {
+        "machine_name": "VMP-50(A)",
+        "map_name": "VMP50A",
+        "image_name": "vendors/product/201509/61146300.jpg"
+    },
+    {
+        "machine_name": "VMP-45(A)",
+        "map_name": "VMP45A",
+        "image_name": "vendors/product/201508/44378800.jpg"
+    },
+    {
+        "machine_name": "VM-45S(A)",
+        "map_name": "VMP45S",
+        "image_name": "vendors/product/201509/17809700.jpg"
+    },
+    {
+        "machine_name": "VMP-40(A)",
+        "map_name": "VMP40A",
+        "image_name": "vendors/product/201508/50415700.jpg"
+    },
+    {
+        "machine_name": "VMP-32A-APC",
+        "map_name": "VMP32AAPC",
+        "image_name": "vendors/product/201509/68512700.jpg"
+    },
+    {
+        "machine_name": "VMP-32(A)",
+        "map_name": "VMP32A",
+        "image_name": "vendors/product/201508/54298300.jpg"
+    },
+    {
+        "machine_name": "VMP-30(A)",
+        "map_name": "VMP30A",
+        "image_name": "vendors/product/201508/90474500.jpg"
+    },
+    {
+        "machine_name": "VMP-23A-APC",
+        "map_name": "VMP23AAPC",
+        "image_name": "vendors/product/201509/65059400.jpg"
+    },
+    {
+        "machine_name": "VMP-23(A)",
+        "map_name": "VMP23A",
+        "image_name": "vendors/product/201606/01539700.png"
+    },
+    {
+        "machine_name": "QMP-40A",
+        "map_name": "QMP40A",
+        "image_name": "vendors/product/201509/45879900.jpg"
+    },
+    {
+        "machine_name": "QMP-32Aapc",
+        "map_name": "QMP32A",
+        "image_name": "vendors/product/201509/49927700.jpg"
+    },
+    {
+        "machine_name": "QMP-32A",
+        "map_name": "QMP32A",
+        "image_name": "vendors/product/201508/46888800.jpg"
+    },
+    {
+        "machine_name": "QMP-30A",
+        "map_name": "QMP30A",
+        "image_name": "vendors/product/201508/91791800.jpg"
+    },
+    {
+        "machine_name": "QMP-23Aapc",
+        "map_name": "QMP23AaPC",
+        "image_name": "vendors/product/201509/30124300.jpg"
+    },
+    {
+        "machine_name": "QMP-23A",
+        "map_name": "QMP23A",
+        "image_name": "vendors/product/201508/66680600.jpg"
+    },
+    {
+        "machine_name": "HV-40A",
+        "map_name": "HV40A",
+        "image_name": "vendors/product/201508/29642000.jpg"
+    },
+    {
+        "machine_name": "HV-32Aapc",
+        "map_name": "HV32APC",
+        "image_name": "vendors/product/201508/68887800.jpg"
+    },
+    {
+        "machine_name": "NBP-1300(A)",
+        "map_name": "NBP-1300(A)",
+        "image_name": "vendors/product/201509/25642400.jpg"
+    },
+    {
+        "machine_name": "NBP-1100(A)",
+        "map_name": "NBP-1100(A)",
+        "image_name": "vendors/product/201508/81232200.jpg"
+    },
+    {
+        "machine_name": "NBP-1000(A)",
+        "map_name": "NBP-1000(A)",
+        "image_name": "vendors/product/201509/11331300.jpg"
+    },
+    {
+        "machine_name": "VB-2200A",
+        "map_name": "VB-2200A",
+        "image_name": "vendors/product/201510/20228400.png"
+    },
+    {
+        "machine_name": "VB-1900A",
+        "map_name": "VB-1900A",
+        "image_name": "vendors/product/201510/05004300.png"
+    },
+    {
+        "machine_name": "VB-1650A",
+        "map_name": "VB-1650A",
+        "image_name": "vendors/product/201510/79461500.png"
+    },
+    {
+        "machine_name": "FVT-600",
+        "map_name": "FVT600",
+        "image_name": "vendors/product/201508/52251200.jpg"
+    },
+    {
+        "machine_name": "FVT-1000",
+        "map_name": "FVT1000",
+        "image_name": "vendors/product/201509/79882900.jpg"
+    }
+]
