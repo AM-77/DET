@@ -7,6 +7,10 @@ public class Machines {
 
     private List<Machine> machines;
 
+    public Machines(){
+        super();
+    }
+
     public Machines(List<Machine> machines ){
         this.machines = machines;
     }
@@ -18,5 +22,5 @@ public class Machines {
     public void setMachines(List<Machine> machines) {
         this.machines = machines;
     }
-
+    
 }

@@ -5,6 +5,10 @@ public class Feature {
     private String feature;
     private String value;
 
+    public Feature(){
+        super();
+    }
+
     public Feature(String feature, String value ){
         this.feature = feature;
         this.value = value;

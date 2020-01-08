@@ -8,6 +8,10 @@ public class Column {
     private String title;
     private List<Feature> features;
 
+    public Column(){
+        super();
+    }
+
     public Column(String title, List<Feature> features ){
         this.title = title;
         this.features = features;

@@ -5,20 +5,24 @@ import com.lonix.det.models.Column;
 
 public class Machine {
 
-    private String machine_name;
+    private String machineName;
     private List<Column> columns;
 
-    public Machine(String machine_name, List<Column> columns ){
-        this.machine_name = machine_name;
+    public Machine(){
+        super();
+    }
+
+    public Machine(String machineName, List<Column> columns ){
+        this.machineName = machineName;
         this.columns = columns;
     }
 
-    public String getMachine_name() {
-        return machine_name;
+    public String getMachineName() {
+        return machineName;
     }
 
-    public void setMachine_name(String machine_name) {
-        this.machine_name = machine_name;
+    public void setMachineName(String machineName) {
+        this.machineName = machineName;
     }
 
     public List<Column> getColumns() {
