@@ -1,26 +1,51 @@
 package com.lonix.det.controllers;
 
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.GetMapping;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lonix.det.models.Machines;
-import java.io.File;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
-@RestController
+import com.lonex.enums.MachineType;
+import com.lonex.services.JsonFileReaderService;
+import com.lonix.det.models.Machines;
+
+@Controller
 public class MainController {
 
-	@GetMapping("/")
-	public String cool(){
+	@Autowired
+	JsonFileReaderService jsonReader;
+	
+	Machines machines = new Machines();
+	
+	@RequestMapping("/hello")
+	public String index(Model model){
+		
+		
+		
+		return "Index";
 
-		try {
-			ObjectMapper objectMapper = new ObjectMapper();
-			Machines machines = objectMapper.readValue(new File("src/main/resources/data/machines.json"), Machines.class);
-
-			return "Data retrieved: there is " + machines.getMachines().size() + " machine.";
-		} catch (Exception e) {
-			e.printStackTrace();
-			return "There was an error in the server.";
+	}
+	
+	@RequestMapping("/Category/{category}")
+	public ModelAndView cool(@PathVariable("category") String category){
+		
+		switch (category) {
+		
+		case "centre":
+			jsonReader.getMachinesFromJson(MachineType.Centre);
+			break;
+		case "tour":
+			jsonReader.getMachinesFromJson(MachineType.Tour);
+			break;
+			
+			default :
+				return new ModelAndView("error" , "msg" , "category undefined !");
+			
 		}
+		
+		return new ModelAndView("MachinesPage" , "Machines" , machines);
 
 	}
 

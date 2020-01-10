@@ -1,18 +1,18 @@
 package com.lonix.det.models;
 
+import java.util.HashMap;
 import java.util.List;
-import com.lonix.det.models.Column;
 
 public class Machine {
 
     private String machineName;
-    private List<Column> columns;
+    private HashMap<String,List<Feature>> columns;
 
     public Machine(){
         super();
     }
 
-    public Machine(String machineName, List<Column> columns ){
+    public Machine(String machineName, HashMap<String,List<Feature>> columns ){
         this.machineName = machineName;
         this.columns = columns;
     }
@@ -25,12 +25,16 @@ public class Machine {
         this.machineName = machineName;
     }
 
-    public List<Column> getColumns() {
+    public HashMap<String , List<Feature>> getColumns() {
         return columns;
     }
 
     public void setColumns(List<Column> columns) {
-        this.columns = columns;
+    	for(Column col : columns)
+    	{
+    		this.columns.put( col.getTitle() , col.getFeatures() );
+    	}
+       
     }
 
 }
