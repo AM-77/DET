@@ -1,28 +1,30 @@
 package com.lonix.det.models;
 
 import java.util.List;
-import com.lonix.det.models.Column;
 
-public class Machine {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-    private String machineName;
+@JsonIgnoreProperties(value= {"imageName","machineName"} , ignoreUnknown=true)
+public class Machine extends MachineCategory{
+
+    private String mapName;
     private List<Column> columns;
 
     public Machine(){
         super();
     }
 
-    public Machine(String machineName, List<Column> columns ){
-        this.machineName = machineName;
+    public Machine(String mapName, List<Column> columns ){
+        this.mapName = mapName;
         this.columns = columns;
     }
 
-    public String getMachineName() {
-        return machineName;
+    public String getMapName() {
+        return mapName;
     }
 
-    public void setMachineName(String machineName) {
-        this.machineName = machineName;
+    public void setMapName(String mapName) {
+        this.mapName = mapName;
     }
 
     public List<Column> getColumns() {
