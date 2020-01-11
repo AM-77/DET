@@ -1,6 +1,6 @@
-{
-    "machines": [{
-            "machineName": "FTC10",
+ [
+ 	{
+            "mapName": "FTC10",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -80,7 +80,7 @@
             ]
         },
         {
-            "machineName": "FTC640L",
+            "mapName": "FTC640L",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -180,7 +180,7 @@
             ]
         },
         {
-            "machineName": "FTC20L",
+            "mapName": "FTC20L",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -260,7 +260,7 @@
             ]
         },
         {
-            "machineName": "FTC20",
+            "mapName": "FTC20",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -340,7 +340,7 @@
             ]
         },
         {
-            "machineName": "FTC300",
+            "mapName": "FTC300",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -440,7 +440,7 @@
             ]
         },
         {
-            "machineName": "FTC30",
+            "mapName": "FTC30",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -520,7 +520,7 @@
             ]
         },
         {
-            "machineName": "FTC350L",
+            "mapName": "FTC350L",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -620,7 +620,7 @@
             ]
         },
         {
-            "machineName": "FTC350LY",
+            "mapName": "FTC350LY",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -720,7 +720,7 @@
             ]
         },
         {
-            "machineName": "FTC350SLY",
+            "mapName": "FTC350SLY",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -820,7 +820,7 @@
             ]
         },
         {
-            "machineName": "FTC350",
+            "mapName": "FTC350",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -920,7 +920,7 @@
             ]
         },
         {
-            "machineName": "FTC350XL",
+            "mapName": "FTC350XL",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1020,7 +1020,7 @@
             ]
         },
         {
-            "machineName": "FTC450",
+            "mapName": "FTC450",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1120,7 +1120,7 @@
             ]
         },
         {
-            "machineName": "FTC640",
+            "mapName": "FTC640",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1220,7 +1220,7 @@
             ]
         },
         {
-            "machineName": "tablesBoxway/FT250MC",
+            "mapName": "FT250MC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1276,7 +1276,8 @@
             ]
         },
         {
-            "machineName": "tablesBoxway/FT250SYMC",
+            "mapName": "FT250SYMC",
+            "imageName": "vendors/product/201508/89597700.jpg",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1332,7 +1333,64 @@
             ]
         },
         {
-            "machineName": "tablesBoxway/FT350",
+            "mapName": "FT250MC",
+            "imageName": "vendors/product/201508/94633400.jpg",
+            "columns": [{
+                    "title": "TRAVEL",
+                    "features": [{
+                            "feature": "X-axis travel",
+                            "value": "210+10mm"
+                        },
+                        {
+                            "feature": "Y-axis travel",
+                            "value": "100mm(±50)"
+                        },
+                        {
+                            "feature": "Z/E-axis travel",
+                            "value": "1,050/947mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPINDLE",
+                    "features": [{
+                            "feature": "Max. spindle speed",
+                            "value": "3,500rpm/4,500rpm"
+                        },
+                        {
+                            "feature": "Type of spindle nose",
+                            "value": "A2-8/A2-6"
+                        },
+                        {
+                            "feature": "Through-spindle hole diameter",
+                            "value": "88/56mm"
+                        },
+                        {
+                            "feature": "Spindle bearing inner diameter",
+                            "value": "130/100mm"
+                        }
+                    ]
+                },
+                {
+                    "title": "FEEDRATE",
+                    "features": [{
+                            "feature": "X Rapid traverse rate",
+                            "value": "24,000mm/min"
+                        },
+                        {
+                            "feature": "Y Rapid traverse rate",
+                            "value": "24,000mm/min"
+                        },
+                        {
+                            "feature": "Z Rapid traverse rate",
+                            "value": "24,000/10,000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "mapName": "FT350",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1388,7 +1446,7 @@
             ]
         },
         {
-            "machineName": "tablesBoxway/FT400",
+            "mapName": "FT400",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1444,7 +1502,7 @@
             ]
         },
         {
-            "machineName": "tablesBoxway/HT30MC",
+            "mapName": "HT30MC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1508,7 +1566,7 @@
             ]
         },
         {
-            "machineName": "tablesBoxway/HT30SY",
+            "mapName": "HT30SY",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1572,7 +1630,7 @@
             ]
         },
         {
-            "machineName": "tablesBoxway/HT30Y",
+            "mapName": "HT30Y",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1636,7 +1694,7 @@
             ]
         },
         {
-            "machineName": "tablesVerticalCNCLathes/FVT1000",
+            "mapName": "tablesVerticalCNCLathes/FVT1000",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1692,7 +1750,7 @@
             ]
         },
         {
-            "machineName": "tablesVerticalCNCLathes/FVT600",
+            "mapName": "tablesVerticalCNCLathes/FVT600",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1748,7 +1806,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/FV1500A",
+            "mapName": "FV1500A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1816,7 +1874,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/FV1600A",
+            "mapName": "FV1600A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1884,7 +1942,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/FVP1000A",
+            "mapName": "FVP1000A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1952,7 +2010,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/FVP1300A",
+            "mapName": "FVP1300A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2020,7 +2078,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/FVP800A",
+            "mapName": "FVP800A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2088,7 +2146,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/HV32APC",
+            "mapName": "HV32APC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2156,7 +2214,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/HV40A",
+            "mapName": "HV40A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2224,7 +2282,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/QMP23Aapc",
+            "mapName": "QMP23Aapc",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2292,7 +2350,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/QMP23A",
+            "mapName": "QMP23A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2360,7 +2418,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/QMP30A",
+            "mapName": "QMP30A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2428,7 +2486,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/QMP32Aapc",
+            "mapName": "QMP32Aapc",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2496,7 +2554,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/QMP32A",
+            "mapName": "QMP32A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2564,7 +2622,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/QMP40A",
+            "mapName": "QMP40A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2632,7 +2690,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP23AAPC",
+            "mapName": "VMP23AAPC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2700,7 +2758,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP23A",
+            "mapName": "VMP23A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2768,7 +2826,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP30A",
+            "mapName": "VMP30A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2801,24 +2859,7 @@
                         }
                     ]
                 },
-                {
-                    "title": "SPINDLE",
-                    "features": [{
-                            "feature": "Spindle speed",
-                            "value": "10,000rpm"
-                        },
-                        {
-                            "feature": "Spindle taper",
-                            "value": "7/24 Taper No.40"
-                        },
-                        {
-                            "feature": "Spindle power",
-                            "value": "7.5/11 Kw"
-                        }
-                    ]
-                },
-                {
-                    "title": "SPINDLE",
+                {     "title": "SPINDLE",
                     "features": [{
                             "feature": "Spindle speed",
                             "value": "10,000rpm"
@@ -2852,7 +2893,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP32AAPC",
+            "mapName": "VMP32AAPC",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2902,22 +2943,6 @@
                     ]
                 },
                 {
-                    "title": "SPINDLE",
-                    "features": [{
-                            "feature": "Spindle speed",
-                            "value": "10,000rpm"
-                        },
-                        {
-                            "feature": "Spindle taper",
-                            "value": "7/24 Taper No.40"
-                        },
-                        {
-                            "feature": "Spindle power",
-                            "value": "7.5/11 Kw"
-                        }
-                    ]
-                },
-                {
                     "title": "FEEDRATE",
                     "features": [{
                             "feature": "X-axis rapid traverse",
@@ -2936,7 +2961,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP32A",
+            "mapName": "VMP32A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -2986,22 +3011,6 @@
                     ]
                 },
                 {
-                    "title": "SPINDLE",
-                    "features": [{
-                            "feature": "Spindle speed",
-                            "value": "10,000rpm"
-                        },
-                        {
-                            "feature": "Spindle taper",
-                            "value": "7/24 Taper No.40"
-                        },
-                        {
-                            "feature": "Spindle power",
-                            "value": "7.5/11 Kw"
-                        }
-                    ]
-                },
-                {
                     "title": "FEEDRATE",
                     "features": [{
                             "feature": "X-axis rapid traverse",
@@ -3020,7 +3029,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP40A",
+            "mapName": "VMP40A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3070,22 +3079,6 @@
                     ]
                 },
                 {
-                    "title": "SPINDLE",
-                    "features": [{
-                            "feature": "Spindle speed",
-                            "value": "10,000rpm"
-                        },
-                        {
-                            "feature": "Spindle taper",
-                            "value": "7/24 Taper No.40"
-                        },
-                        {
-                            "feature": "Spindle power",
-                            "value": "7.5/11 Kw"
-                        }
-                    ]
-                },
-                {
                     "title": "FEEDRATE",
                     "features": [{
                             "feature": "X-axis rapid traverse",
@@ -3104,7 +3097,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP45A",
+            "mapName": "VMP45A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3154,22 +3147,6 @@
                     ]
                 },
                 {
-                    "title": "SPINDLE",
-                    "features": [{
-                            "feature": "Spindle speed",
-                            "value": "10,000rpm(BT40)/4,000rpm(BT50)"
-                        },
-                        {
-                            "feature": "Spindle taper",
-                            "value": "7/24 Taper No.40/7/24 Taper No.50"
-                        },
-                        {
-                            "feature": "Spindle power",
-                            "value": "7.5/11 Kw"
-                        }
-                    ]
-                },
-                {
                     "title": "FEEDRATE",
                     "features": [{
                             "feature": "X-axis rapid traverse",
@@ -3188,7 +3165,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP45S",
+            "mapName": "VMP45S",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3238,22 +3215,6 @@
                     ]
                 },
                 {
-                    "title": "SPINDLE",
-                    "features": [{
-                            "feature": "Spindle speed",
-                            "value": "10,000rpm"
-                        },
-                        {
-                            "feature": "Spindle taper",
-                            "value": "7/24 Taper No.40"
-                        },
-                        {
-                            "feature": "Spindle power",
-                            "value": "6/11 Kw"
-                        }
-                    ]
-                },
-                {
                     "title": "FEEDRATE",
                     "features": [{
                             "feature": "X-axis rapid traverse",
@@ -3272,7 +3233,7 @@
             ]
         },
         {
-            "machineName": "tablesverticalMClinear/VMP50A",
+            "mapName": "VMP50A",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -3322,22 +3283,6 @@
                     ]
                 },
                 {
-                    "title": "SPINDLE",
-                    "features": [{
-                            "feature": "Spindle speed",
-                            "value": "10,000rpm(BT40)/4,000rpm(BT50)"
-                        },
-                        {
-                            "feature": "Spindle taper",
-                            "value": "7/24 Taper No.40/7/24 Taper No.50"
-                        },
-                        {
-                            "feature": "Spindle power",
-                            "value": "7.5/11 Kw"
-                        }
-                    ]
-                },
-                {
                     "title": "FEEDRATE",
                     "features": [{
                             "feature": "X-axis rapid traverse",
@@ -3356,4 +3301,3 @@
             ]
         }
     ]
-}

@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -9,9 +9,18 @@
 </head>
 <body>
 	
-	<c:forEach var="machine" items="${Machines}">
-	  <p> Key: <c:out value="${machine.key}"/> </p> <br>
-	  <p>Value: <c:out value="${machine.value}"/></p>
+	<c:forEach var="machineType" items="${MachineTypes}">
+		
+	  
+	 <a href="${category}/${machineType.mapName}">
+	 <img src="${contextPath}/${machineType.imageName}" style="width:auto;height:200px;">
+	 </a><br>
+	 
+	  <a style="text-decoration:none" href="/${category}/${machineType.mapName}">
+	  <Strong>Machine Name: </Strong> <c:out value="${machineType.machineName}"/> <br> 
+	  </a>
+	 
+	  	 <p>///////////////////////////////////////////////////////////////////////</p><br>
 	</c:forEach>
 
 </body>

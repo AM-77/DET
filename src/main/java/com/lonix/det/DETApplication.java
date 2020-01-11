@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication(scanBasePackages={
-		"com.lonex.*"})
+		"com.lonex.*" , "com.lonix.det.controllers"})
 public class DETApplication extends SpringBootServletInitializer{
 
 	   @Override
