@@ -48,7 +48,8 @@ public class JsonFileReaderService {
 		
 		char[] searchQueryArray = searchQuery.toUpperCase().toCharArray();
 		
-		
+		if(searchQueryArray.length==0)
+			return allMachines;
 		
 		for(MachineCategory machine : allMachines) {
 			boolean allMatch = true;
@@ -72,8 +73,7 @@ public class JsonFileReaderService {
 				System.out.println(machine.getMapName() + " valide !");
 				searchResult.add(machine);
 			}
-			if(searchQueryArray.length==0)
-				return allMachines;
+			
 			
 		}
 		
