@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="foot">
-                <p class="credits">Made By <span>LoneX</span></p>
+                <p class="credits">Made By <a href="https://github.com/LoneXHub/det" target="_blank">LoneX</a> & <a href="https://github.com/am-77/det" alt="_blank">AM77</a></p>
                 <p class="copyrights">SARL DET &copy; 2015-2020</p>
             </div>
         </div>
