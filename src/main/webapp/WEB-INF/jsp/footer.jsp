@@ -3,7 +3,7 @@
                 <div class="links">
                     <h5>Website Map</h5>
                     <a href="/" class="link home">home</a>
-                    <a href="/Category/center" class="link center">machining center</a>
+                    <a href="/Category/centre" class="link center">machining center</a>
                     <a href="/Category/tour" class="link tour">CNC lathe</a>
                     <a href="/contact" class="link contact">contact us</a>
                 </div>
