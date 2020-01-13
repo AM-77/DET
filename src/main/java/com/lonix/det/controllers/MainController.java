@@ -5,6 +5,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.web.ErrorController;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,7 +19,7 @@ import com.lonix.det.models.Machine;
 import com.lonix.det.models.MachineCategory;
 
 @Controller
-public class MainController {
+public class MainController implements ErrorController {
 
 	@Autowired
 	JsonFileReaderService jsonReader;
@@ -95,6 +96,16 @@ public class MainController {
 			jsonReader.WriteClientAction(this.request, "visited category : "+this.category);
 		}
 	}
+	
+	
+	@RequestMapping("/error")
+	public ModelAndView handleError(HttpServletRequest request) {
+	     return new ModelAndView ("error");
+	}
+	 @Override
+	    public String getErrorPath() {
+	        return "/error";
+	    }
 
 
 
