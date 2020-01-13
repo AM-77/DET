@@ -6,7 +6,7 @@
         <title>DET | Distribution Des Equipements</title>
         <link rel="stylesheet" href="/assets/styles/style.css">
         <link rel="stylesheet" href="/assets/owl-carousel/owl.carousel.min.css">
-        <link rel="shortcut icon" href="/assets/images/logo.png" type="image/png">
+        <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
     </head>
     <body>
         <div class="container">
@@ -16,7 +16,7 @@
                 </div>    
                 <nav class="navbar">
                     <div class="links">
-                        <a href="/" class="link home active">home</a>
+                        <a href="/" class="link home">home</a>
                         <a href="/Category/centre" class="link centre">machining center</a>
                         <a href="/Category/tour" class="link tour">CNC lathe</a>
                         <a href="/contact" class="link contact">contact us</a>
