@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(value= {"imageName","machineName"} , ignoreUnknown=true)
+@JsonIgnoreProperties(value= {"machineName"} , ignoreUnknown=true)
 public class Machine extends MachineCategory{
 
     private String mapName;
