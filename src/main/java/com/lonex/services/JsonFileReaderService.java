@@ -2,13 +2,17 @@ package com.lonex.services;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lonex.enums.MachineType;
+import com.lonix.det.models.ClientAction;
 import com.lonix.det.models.Machine;
 import com.lonix.det.models.MachineCategory;
 
@@ -37,10 +41,52 @@ public class JsonFileReaderService {
 			return machines;
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println( "There was an error in the server." );
+			System.out.println( "failed to read Json file" );
 			return null;
 		}
 	}
+	
+	
+	
+	public List<MachineCategory> getSearchMachineCategoryList(MachineType category , String searchQuery){
+			
+			List<MachineCategory> allMachines = this.getMachineTypesFromJson(category);
+			List<MachineCategory> searchResult = new ArrayList<MachineCategory> ();
+			
+			char[] searchQueryArray = searchQuery.toUpperCase().toCharArray();
+			
+			if(searchQueryArray.length==0)
+				return allMachines;
+			
+			for(MachineCategory machine : allMachines) {
+				boolean allMatch = true;
+				char[] mapNameArray = machine.getMapName().toUpperCase().toCharArray();
+				int index = 0;
+	
+				for(char queryChar : searchQueryArray)
+				{
+				
+					if(queryChar != mapNameArray[index])
+					{
+						allMatch=false;
+						break;
+					}
+				
+				  index++;
+				}
+				
+				if(allMatch)
+				{
+					System.out.println(machine.getMapName() + " valide !");
+					searchResult.add(machine);
+				}
+				
+				
+			}
+			
+			return searchResult;
+		}
+
 	public List<MachineCategory> getSearchMachineCategoryList(String searchQuery){
 		
 		List<MachineCategory> allMachines = this.getFullMachineCategoryList();
@@ -100,14 +146,67 @@ public class JsonFileReaderService {
 	
 
 	public List<Machine> getMachinesFromJson() {
-		// TODO Auto-generated method stub
 		try {
 			return objectMapper.readValue(new File("src/main/resources/data/machines.json"), new TypeReference<List<Machine>>(){});
 		
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println( "There was an error in the server." );
+			System.out.println( "failed to read Json file" );
 			return null;
 		}
 	}
+	
+	public List<ClientAction> getClientActions(String clientIp) {
+		try {
+			return objectMapper.readValue(new File("src/main/resources/data/"+clientIp+".json"), new TypeReference<List<ClientAction>>(){});
+		
+		} catch (Exception e) {
+			System.out.println( "src/main/resources/data/"+clientIp+".json"+" not found" );
+			return new ArrayList<ClientAction> ();
+		}
+	}
+
+	public boolean WriteClientAction(HttpServletRequest request , String action) {
+		String clientIp = JsonFileReaderService.getClientIp(request);
+		Date currentDate = new Date();
+		ClientAction clientAction = new ClientAction(clientIp , action , currentDate.toString());
+		
+		
+		
+		File clientFile= new File("src/main/resources/data/"+clientIp+".json");
+		List<ClientAction> clientActions = this.getClientActions(clientIp);
+		
+		
+		
+		try {
+		
+			clientFile.createNewFile();
+				
+			
+			
+			clientActions.add(clientAction);
+			objectMapper.writeValue(clientFile ,clientActions);
+				
+		}catch(Exception e) {
+			e.printStackTrace();
+			System.out.println("Failed to Write user actions for client : " + clientIp);
+		}
+		
+		
+		return true;
+	}
+	
+	private static String getClientIp(HttpServletRequest request) {
+		
+        String remoteAddr = "";
+
+        if (request != null) {
+            remoteAddr = request.getHeader("X-FORWARDED-FOR");
+            if (remoteAddr == null || "".equals(remoteAddr)) {
+                remoteAddr = request.getRemoteAddr();
+            }
+        }
+
+        return remoteAddr;
+    }
 }
