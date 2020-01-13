@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.lonex.enums.MachineType;
@@ -31,24 +32,14 @@ public class MainController {
 	
 	@RequestMapping("/Category/{category}")
 	public ModelAndView cool(@PathVariable("category") String category){
-		
-		switch (category) {
-		
-		case "centre":
-			 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Centre);
-			break;
-		case "tour":
-			 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Tour);		
-			break;
-			
-			default :{
-				System.out.println("warning no such category!");
-				return new ModelAndView("MachinesPage");
-			}
-				
+		if(this.getMachineTypes(category))
+			return new ModelAndView("MachinesPage" , "MachineTypes" , machineTypes);
+		else
+		{
+			System.out.println("warning no such category!");
+			return new ModelAndView("MachinesPage");
 		}
 		
-		return new ModelAndView("MachinesPage" , "MachineTypes" , machineTypes);
 
 	}
 	
@@ -57,51 +48,78 @@ public class MainController {
 	{
 		ModelAndView model = new ModelAndView("SingleMachinePage");
 		
-		switch (category) {
-		
-		case "centre":
-			 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Centre);
-			break;
-		case "tour":
-			 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Tour);		
-			break;
-			
-			default :{
-				System.out.println("warning no such category!");
-				return new ModelAndView("MachinesPage" , "msg" , "No such machine category !");
-			}
-			
-		}
-			
-			Machine machine = new Machine();
-			
-			machines = jsonReader.getMachinesFromJson();
-		
-			for(Machine stockMachine : machines)
-			{
-				if(stockMachine.getMapName().equals( mapName )) {
-					
-					machine=stockMachine;
-					break;
-				}
-			}
-			
-			for(MachineCategory mt : machineTypes)
-			{
-				if(mt.getMapName().equals(mapName)) 
+		if(this.getMachineTypes(category))
+		{
+				Machine machine = this.getSingleMachine(category, mapName);
+				if(machine==null)
+					model.addObject("machineFound" , false);
+				else
 				{
-					machine.setImageName(mt.getImageName());
-					break;
-				}
-				
-				
-			}
-			 
-			model.addObject("Machine" , machine);
+					model.addObject("Machine" , machine);
+					model.addObject("machineFound" , true);
+					}
+					
+					
+					return model;
+		}
+		else
+				return new ModelAndView("MachinesPage" , "msg" , "No such machine category !");
 			
-			return model;
 	
 	}
 	
+	
+	
+	public boolean getMachineTypes(String category) {
+
+		switch (category) {
+				
+				case "centre":
+					 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Centre);
+					 return true;
+				case "tour":
+					 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Tour);		
+					return true;
+					
+					default :{
+						System.out.println("warning no such category!");
+						return false;
+					}
+			
+		}
+	}
+	
+	public Machine getSingleMachine(String category , String mapName) {
+		
+		Machine machine = new Machine();
+		boolean machineFound=false;
+		
+		machines = jsonReader.getMachinesFromJson();
+	
+		for(Machine stockMachine : machines)
+		{
+			if(stockMachine.getMapName().equals( mapName )) {
+				machineFound=true;
+				machine=stockMachine;
+				break;
+			}
+		}
+		
+		for(MachineCategory mt : machineTypes)
+		{
+			if(mt.getMapName().equals(mapName)) 
+			{
+				machine.setImageName(mt.getImageName());
+				break;
+			}
+			
+			
+		}
+		
+		if(machineFound)
+			return machine;
+		else
+			return null;
+	}
 
 }

@@ -30,7 +30,6 @@
 			<div class="machines"></div>
 		</div>
 		<div class="content">
-
 		</div>
 	</div>
 <jsp:include page="./footer.jsp" />

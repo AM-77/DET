@@ -8,26 +8,38 @@
 <title>Machine page</title>
 </head>
 <body>
-		<h2>${Machine.mapName}</h2>
-		<img src="${contextPath}/${Machine.imageName}" style="width:auto;height:200px;">
-		 <table>
-	  	<tbody>
-		  	<tr>
-				<c:forEach var="column" items="${Machine.columns}">
-					<th>${column.title}</th>
-					
-				<c:forEach var="feature" items="${column.features}">
-					<tr>
-						<td>${feature.feature} :</td>
-						<td>${feature.value} :</td>
-					</tr>
+	<c:if test="${machineFound}">
+		
+	  </c:if>
+	  
+	  <c:choose>
+	  	<c:when test="${machineFound}">
+		  	<h2>${Machine.mapName}</h2>
+			<img src="${contextPath}/${Machine.imageName}" style="width:auto;height:200px;">
+			 <table>
+		  	<tbody>
+			  	<tr>
+					<c:forEach var="column" items="${Machine.columns}">
+						<th>${column.title}</th>
+						
+					<c:forEach var="feature" items="${column.features}">
+						<tr>
+							<td>${feature.feature} :</td>
+							<td>${feature.value} :</td>
+						</tr>
+					</c:forEach>
 				</c:forEach>
-			</c:forEach>
+					
+					
+				</tr>	
 				
-				
-			</tr>	
-			
-	  	</tbody>
-	  </table>
+		  	</tbody>
+		  </table>
+	  	</c:when>
+	  	<c:otherwise>
+	  		<h2 style="color:red;">Machine Not Found</h2>
+	  	</c:otherwise>
+	  </c:choose> 
+	 	
 </body>
 </html>
