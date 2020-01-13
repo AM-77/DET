@@ -10,7 +10,7 @@
 <title>Machines Page</title>
 </head>
 <body>
-	
+	<h1>Search Results :</h1>
 	<c:forEach var="machineType" items="${MachineTypes}">
 		
 	  
