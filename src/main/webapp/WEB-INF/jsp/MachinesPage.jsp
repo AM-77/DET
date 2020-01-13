@@ -2,18 +2,35 @@
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <jsp:include page="./header.jsp" />
-	
-	<c:forEach var="machineType" items="${MachineTypes}">
-		
-	  
-	 <a href="${category}/${machineType.mapName}">
-	 <img src="${contextPath}/${machineType.imageName}" style="width:auto;height:200px;">
-	 </a><br />
-	 
-	  <a style="text-decoration:none" href="/${category}/${machineType.mapName}">
-	  <Strong>Machine Name: </Strong> <c:out value="${machineType.machineName}"/> <br /> 
-	  </a>
-	 <br />
-	</c:forEach>
+	<div class="machines-container">
+		<div class="sidebar list">
+			<div class="head">
+				<div class="title">
+					<p>machining center</p>	
+					<div class="view">
+						<img class="grid-view" src="/assets/images/grid.svg" alt="grid view" />
+						<img class="list-view" src="/assets/images/list.svg" alt="list view" />
+					</div>
+				</div>
+				<div class="search">
+					<span><img src="/assets/images/search.svg" alt="search button"/></span>
+					<input type="text" class="machine-filter" placeholder="Search" >
+				</div>
+			</div>
+			<div class="_machines" style="display:none">
+				<c:forEach var="machineType" items="${MachineTypes}">
+					<div class="machine">
+						<div data-link="/Category/${category}/${machineType.mapName}">
+							<img src="${contextPath}/${machineType.imageName}" />	
+							<span><c:out value="${machineType.machineName}"/></span>
+						</div>
+					</div>
+				</c:forEach>
+			</div>
+			<div class="machines"></div>
+		</div>
+		<div class="content">
 
+		</div>
+	</div>
 <jsp:include page="./footer.jsp" />

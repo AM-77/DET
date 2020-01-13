@@ -57,12 +57,57 @@ $(document).ready(() => {
 
     // grid / list view
     if ($(".machines-container .sidebar")) {
-        $(".machines-container .sidebar img.grid-view").on("click", () => {
-            $(".machines-container .sidebar").removeClass("grid").addClass("list")
-        })
-
-        $(".machines-container .sidebar img.list-view").on("click", () => {
+        $(".machines-container .sidebar img.grid-view").click(() => {
             $(".machines-container .sidebar").removeClass("list").addClass("grid")
         })
+
+        $(".machines-container .sidebar img.list-view").click(() => {
+            $(".machines-container .sidebar").removeClass("grid").addClass("list")
+        })
     }
+
+    //* display sidbar machines
+    let machines = $(".sidebar ._machines .machine")
+
+    let format_html = (machines) => {
+        let machines_html = ""
+
+        for (let i = 0; i < machines.length; i++) {
+            let img_src = $(machines[i]).find("img").attr("src").trim()
+            let machine_name = $(machines[i]).find("span").text().trim()
+
+            machines_html += `<div class="machine"><div><img src="${img_src}" alt="${machine_name} machine" /><span>${machine_name}</span></div></div>`
+        }
+        return machines_html
+    }
+
+    $(".sidebar .machines").html(format_html(machines))
+
+    //* search a machine
+    let search_input = $(".machines-container .sidebar .head .search input")
+
+    search_input.keyup(e => {
+        let value = e.target.value.trim().toLowerCase()
+        if (value !== "") {
+            $(".sidebar .machines").html(format_html(find_machine(value, machines)))
+        } else {
+            $(".sidebar .machines").html(format_html(machines))
+        }
+    })
+
+    let find_machine = (machine_name, machines) => {
+        let found_machines = []
+        for (let i = 0; i < machines.length; i++)
+            if ($(machines[i]).find("span").text().trim().toLowerCase().indexOf(machine_name) >= 0)
+                found_machines.push($(machines[i]))
+        return found_machines
+    }
+
+    // select a mechine from
+    $(".sidebar .machines .machine").click(function (e) {
+        console.log($(this));
+        $(".sidebar .machines .machine.active").removeClass("active")
+        $(this).addClass("active")
+    })
+
 })
