@@ -17,19 +17,8 @@
 					<input type="text" class="machine-filter" placeholder="Search" >
 				</div>
 			</div>
-			<div class="_machines" style="display:none">
-				<c:forEach var="machineType" items="${MachineTypes}">
-					<div class="machine">
-						<div data-link="/Category/${category}/${machineType.mapName}">
-							<img src="${contextPath}/${machineType.imageName}" />	
-							<span><c:out value="${machineType.machineName}"/></span>
-						</div>
-					</div>
-				</c:forEach>
-			</div>
 			<div class="machines"></div>
 		</div>
-		<div class="content">
-		</div>
+		<div class="content"></div>
 	</div>
 <jsp:include page="./footer.jsp" />
