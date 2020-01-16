@@ -29,11 +29,11 @@ public class MainController {
 	ClientAction clientAction ;
 	
 	@RequestMapping("/")
-	public String index(Model model){
-		return "Index";
-
-	}
+	public String index(Model model){ return "Index"; }
 	
+	@RequestMapping("/contact")
+	public String contact(Model model){ return "contact"; }
+
 	@RequestMapping("/Category/{category}")
 	public ModelAndView cool(HttpServletRequest request , @PathVariable("category") String category){
 		
