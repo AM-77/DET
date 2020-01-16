@@ -1,13 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Error page</title>
-</head>
-<body>
-<h1 style="color:red;">Nahi yeddek...</h1>
-<p> wchak eddir?</p>
-</body>
-</html>
+<jsp:include page="./header.jsp" />
+<section class="error-container">
+        <div class="img">
+            <img src="/assets/images/not_found.png" /> 
+        </div>
+        <div class="error">
+            <h1>404</h1>
+            <div>
+                <p>The page you are looking for does not exist or has been moved.</p>
+                <a href="/">Go Home <span><img src="/assets/images/arrowhead-right.svg" alt="go home" /><span></a>
+            </div>
+        </div>
+</section>
+<jsp:include page="./footer.jsp" />
