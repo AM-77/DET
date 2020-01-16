@@ -1,29 +1,25 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Machines Page</title>
-</head>
-<body>
-	
-	<c:forEach var="machineType" items="${MachineTypes}">
-		
-	  
-	 <a href="${category}/${machineType.mapName}">
-	 <img src="${contextPath}/${machineType.imageName}" style="width:auto;height:200px;">
-	 </a><br>
-	 
-	  <a style="text-decoration:none" href="/${category}/${machineType.mapName}">
-	  <Strong>Machine Name: </Strong> <c:out value="${machineType.machineName}"/> <br> 
-	  </a>
-	 
-	  	 <p>///////////////////////////////////////////////////////////////////////</p><br>
-	</c:forEach>
-
-</body>
-</html>
+<jsp:include page="./header.jsp" />
+<div class="machines-container">
+	<div class="sidebar list">
+		<div class="head">
+			<div class="title">
+				<div class="hide-sidebar"><img src="/assets/images/arrowhead-left.svg" alt="hide sidebar" /></div>
+				<p>machining center</p>
+				<div class="view">
+					<img class="grid-view" src="/assets/images/grid.svg" alt="grid view" />
+					<img class="list-view" src="/assets/images/list.svg" alt="list view" />
+				</div>
+			</div>
+			<div class="search">
+				<span><img src="/assets/images/search.svg" alt="search button" /></span>
+				<input type="text" class="machine-filter" placeholder="Search">
+			</div>
+		</div>
+		<div class="machines"></div>
+	</div>
+	<div class="content"></div>
+</div>
+<jsp:include page="./footer.jsp" />
