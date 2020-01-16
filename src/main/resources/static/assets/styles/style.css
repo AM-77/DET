@@ -1008,6 +1008,75 @@ h2.column-name {
     background: var(--main-color)
 }
 
+.error-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.error-container .img{
+    display: flex;
+    min-width: 250px;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: #3f51b50f;
+    border-radius: 100%;
+}
+
+.error-container .error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.error-container .error h1{
+    font-size: 177px;
+    color: var(--main-color)
+}
+
+.error-container .error p {
+    font-size: 25px;
+    text-align: center;
+    color: var(--dark)
+}
+
+.error-container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.error-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 7px 20px;
+    background: #71717142;
+    border-radius: 3px;
+    opacity: 0.5;
+    box-shadow: 0px 0px 0px 0px #000;
+    transition: all 250ms ease
+}
+
+.error-container a span{
+    width: 30px;
+    height: 30px;
+}
+
+.error-container a:hover {
+    opacity: 1;
+    box-shadow: 0px 5px 7px -4px #000;
+}
+
 @media screen and (max-width: 1100px) {
     .container .footer .infos .partner>img {
         margin-left: 0;
@@ -1201,6 +1270,24 @@ h2.column-name {
 
     .container .contact-container .content {
         padding: 0 5%;
+    }
+
+    .error-container{
+        flex-direction: column
+    }
+
+    .error-container .img{
+        margin-bottom: 25px;
+        min-height: 150px;
+        min-width: 150px;
+    }
+
+    .error-container .error h1{
+        font-size: 100px
+    }
+
+    .error-container .error {
+        padding: 0
     }
 }
 

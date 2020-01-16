@@ -11,7 +11,7 @@
                         <h5>Find Us</h5>
                         <div>
                             <div class="icon"><img src="/assets/images/pin.svg" /></div>
-                            <p>Zone d'activité n°3 BP63G<br /> Sortie Nord Boufarik Blida , Algerie</p>
+                            <p>Zone d'activite n 3 BP63G<br /> Sortie Nord Boufarik Blida , Algerie</p>
                         </div>
                         <div>
                             <div class="icon"><img src="/assets/images/phone.svg" /></div>
