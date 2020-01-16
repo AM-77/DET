@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Error page</title>
+<title>ClientActivity</title>
 </head>
 <body>
-<h1 style="color:red;">Nahi yeddek...</h1>
-<p> wchak eddir?</p>
+	
 </body>
 </html>

@@ -77,7 +77,6 @@ public class JsonFileReaderService {
 				
 				if(allMatch)
 				{
-					System.out.println(machine.getMapName() + " valide !");
 					searchResult.add(machine);
 				}
 				
@@ -116,7 +115,6 @@ public class JsonFileReaderService {
 			
 			if(allMatch)
 			{
-				System.out.println(machine.getMapName() + " valide !");
 				searchResult.add(machine);
 			}
 			
@@ -165,9 +163,10 @@ public class JsonFileReaderService {
 			return new ArrayList<ClientAction> ();
 		}
 	}
-
+	
+	//Left this here just in case we need it...
 	public boolean WriteClientAction(HttpServletRequest request , String action) {
-		String clientIp = JsonFileReaderService.getClientIp(request);
+		String clientIp = JsonFileReaderService.getClientIp(request).replace(':', '.');
 		Date currentDate = new Date();
 		ClientAction clientAction = new ClientAction(clientIp , action , currentDate.toString());
 		
