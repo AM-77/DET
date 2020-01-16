@@ -14,7 +14,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.lonex.enums.MachineType;
 import com.lonex.services.JsonFileReaderService;
-import com.lonix.det.models.ClientAction;
 import com.lonix.det.models.Machine;
 import com.lonix.det.models.MachineCategory;
 
@@ -23,11 +22,8 @@ public class MainController  implements ErrorController{
 	
 	@Autowired
 	JsonFileReaderService jsonReader;
-	
 	List<MachineCategory> machineTypes;
 	List<Machine> machines;
-	
-	ClientAction clientAction ;
 	
 	@RequestMapping("/")
 	public String index(Model model){ return "Index"; }
@@ -36,52 +32,33 @@ public class MainController  implements ErrorController{
 	public String contact(Model model){ return "contact"; }
 
 	@RequestMapping("/Category/{category}")
-	public ModelAndView cool(HttpServletRequest request , @PathVariable("category") String category){
-		
+	public ModelAndView category(HttpServletRequest request , @PathVariable("category") String category){
 		if(this.getMachineTypes(category))
 			return new ModelAndView("MachinesPage" , "MachineTypes" , machineTypes);
 		else
-		{
-			System.out.println("warning no such category!");
 			return new ModelAndView("MachinesPage");
-		}
-		
 	}
 	
-
 	public boolean getMachineTypes(String category) {
-	
 		switch (category) {
-				
-				case "centre":
-					 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Centre);
-					 return true;
-				case "tour":
-					 machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Tour);		
+			case "centre":
+					machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Centre);
 					return true;
-					
-					default :{
-						System.out.println("warning no such category!");
-						return false;
-					}
-				}
+			case "tour":
+					machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Tour);		
+				return true;
+			default :
+				return false;
+		}
 	}
 
 	@RequestMapping("/error")
 	public ModelAndView handleError(HttpServletRequest request) {
 	     return new ModelAndView ("error");
 	}
-	 @Override
-	    public String getErrorPath() {
-	        return "/error";
-	    }
-
 	
-	
-	
-
-
-	
-	
-	 
+	@Override
+	public String getErrorPath() {
+		return "/error";
+	}
 }
