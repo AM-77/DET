@@ -163,7 +163,8 @@ public class JsonFileReaderService {
 			return new ArrayList<ClientAction> ();
 		}
 	}
-
+	
+	//Left this here just in case we need it...
 	public boolean WriteClientAction(HttpServletRequest request , String action) {
 		String clientIp = JsonFileReaderService.getClientIp(request).replace(':', '.');
 		Date currentDate = new Date();

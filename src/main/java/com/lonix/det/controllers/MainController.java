@@ -19,8 +19,8 @@ import com.lonix.det.models.Machine;
 import com.lonix.det.models.MachineCategory;
 
 @Controller
-public class MainController implements ErrorController {
-
+public class MainController  implements ErrorController{
+	
 	@Autowired
 	JsonFileReaderService jsonReader;
 	
@@ -34,15 +34,14 @@ public class MainController implements ErrorController {
 		return "Index";
 
 	}
+	@RequestMapping("/admin/log")
+	public String clientLog(Model model){
+		return "ClientLog";
+
+	}
 	
 	@RequestMapping("/Category/{category}")
 	public ModelAndView cool(HttpServletRequest request , @PathVariable("category") String category){
-		
-		
-		Thread writeClientThread = new Thread(new ClientWriterThread(request,category,jsonReader));
-	
-		writeClientThread.start();
-		
 		
 		if(this.getMachineTypes(category))
 			return new ModelAndView("MachinesPage" , "MachineTypes" , machineTypes);
@@ -52,10 +51,7 @@ public class MainController implements ErrorController {
 			return new ModelAndView("MachinesPage");
 		}
 		
-
 	}
-	
-	
 	
 
 	public boolean getMachineTypes(String category) {
@@ -73,31 +69,9 @@ public class MainController implements ErrorController {
 						System.out.println("warning no such category!");
 						return false;
 					}
-			
-		}
+				}
 	}
-	
-	class ClientWriterThread extends Thread{
-		
-		JsonFileReaderService jsonReader;
-		
-		HttpServletRequest request;
-		String category;
-		
-		
-		public ClientWriterThread(HttpServletRequest request ,String category , JsonFileReaderService jsonReader) {
-			this.category=category;
-			this.request=request;
-			this.jsonReader=jsonReader;
-		}
-		
-		@Override
-		public void run() {
-			jsonReader.WriteClientAction(this.request, "visited category : "+this.category);
-		}
-	}
-	
-	
+
 	@RequestMapping("/error")
 	public ModelAndView handleError(HttpServletRequest request) {
 	     return new ModelAndView ("error");
@@ -107,71 +81,12 @@ public class MainController implements ErrorController {
 	        return "/error";
 	    }
 
-
-
-	/*
-	@RequestMapping("/Category/{category}/{mapName}")
-	public ModelAndView getMachine(@PathVariable("category") String category , @PathVariable("mapName") String mapName)
-	{
-		ModelAndView model = new ModelAndView("SingleMachinePage");
-		
-		if(this.getMachineTypes(category))
-		{
-				Machine machine = this.getSingleMachine(category, mapName);
-				if(machine==null)
-					model.addObject("machineFound" , false);
-				else
-				{
-					model.addObject("Machine" , machine);
-					model.addObject("machineFound" , true);
-					}
-					
-					
-					return model;
-		}
-		else
-				return new ModelAndView("MachinesPage" , "msg" , "No such machine category !");
-			
 	
-	}
 	
 	
 
+
 	
-	public Machine getSingleMachine(String category , String mapName) {
-		
-		Machine machine = new Machine();
-		boolean machineFound=false;
-		
-		machines = jsonReader.getMachinesFromJson();
-	
-		for(Machine stockMachine : machines)
-		{
-			if(stockMachine.getMapName().equals( mapName )) {
-				machineFound=true;
-				machine=stockMachine;
-				break;
-			}
-		}
-		
-		for(MachineCategory mt : machineTypes)
-		{
-			if(mt.getMapName().equals(mapName)) 
-			{
-				machine.setImageName(mt.getImageName());
-				break;
-			}
-			
-			
-		}
-		
-		if(machineFound)
-			return machine;
-		else
-			return null;
-	}
-	
-	*/
 	
 	 
 }

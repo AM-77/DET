@@ -1694,7 +1694,7 @@
             ]
         },
         {
-            "mapName": "tablesVerticalCNCLathes/FVT1000",
+            "mapName": "FVT1000",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
@@ -1750,7 +1750,7 @@
             ]
         },
         {
-            "mapName": "tablesVerticalCNCLathes/FVT600",
+            "mapName": "FVT600",
             "columns": [{
                     "title": "TRAVEL",
                     "features": [{
