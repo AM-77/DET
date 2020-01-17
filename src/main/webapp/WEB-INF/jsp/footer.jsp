@@ -2,24 +2,24 @@
                 <div class="infos">
                     <div class="links">
                         <h5>Website Map</h5>
-                        <a href="/" class="link home">home</a>
-                        <a href="/Category/centre" class="link center">machining center</a>
-                        <a href="/Category/tour" class="link tour">CNC lathe</a>
-                        <a href="/contact" class="link contact">contact us</a>
+                        <a href="${contextPath}/" class="link home">home</a>
+                        <a href="${contextPath}/Category/centre" class="link center">machining center</a>
+                        <a href="${contextPath}/Category/tour" class="link tour">CNC lathe</a>
+                        <a href="${contextPath}/contact" class="link contact">contact us</a>
                     </div>
                     <div class="us">
                         <h5>Find Us</h5>
                         <div>
-                            <div class="icon"><img src="/assets/images/pin.svg" /></div>
+                            <div class="icon"><img src="${contextPath}/assets/images/pin.svg" /></div>
                             <p>Zone d'activite n 3 BP63G<br /> Sortie Nord Boufarik Blida , Algerie</p>
                         </div>
                         <div>
-                            <div class="icon"><img src="/assets/images/phone.svg" /></div>
+                            <div class="icon"><img src="${contextPath}/assets/images/phone.svg" /></div>
                             <p>+213 550 09 00 74</p>
                         </div>
                         <div>
-                            <div class="icon"><img src="/assets/images/email.svg" /></div>
-                            <p>contact-us@det-distribution.dz</p>
+                            <div class="icon"><img src="${contextPath}/assets/images/email.svg" /></div>
+                            <p>detmachines@gmail.com</p>
                         </div>
                     </div>
                     <div class="partners">
@@ -27,20 +27,20 @@
                         <div class="partner">
                             <div class="partner-infos">
                                 <div>
-                                    <div class="icon"><img src="/assets/images/facebook.svg" /></div>
+                                    <div class="icon"><img src="${contextPath}/assets/images/facebook.svg" /></div>
                                     <p><a href="http://www.facebook.com/Sermo.machines" target="_blank">Sermo in
                                             facebook</a></p>
                                 </div>
                                 <div>
-                                    <div class="icon"><img src="/assets/images/phone.svg" /></div>
+                                    <div class="icon"><img src="${contextPath}/assets/images/phone.svg" /></div>
                                     <p>+213 555 66 55 66</p>
                                 </div>
                                 <div>
-                                    <div class="icon"><img src="/assets/images/email.svg" /></div>
+                                    <div class="icon"><img src="${contextPath}/assets/images/email.svg" /></div>
                                     <p>Sermo.dz@gmail.com</p>
                                 </div>
                             </div>
-                            <img src="/assets/images/sermo-logo.png" />
+                            <img src="${contextPath}/assets/images/sermo-logo.png" />
                         </div>
                     </div>
                 </div>
@@ -51,9 +51,9 @@
                 </div>
             </div>
         </div>
-        <script src="/assets/js/jquery-2.2.4.min.js"></script>
-        <script src="/assets/js/transicons.js"></script>
-        <script src="/assets/owl-carousel/owl.carousel.min.js"></script>
-        <script type="module" src="/assets/js/script.js"></script>
+        <script src="${contextPath}/assets/js/jquery-2.2.4.min.js"></script>
+        <script src="${contextPath}/assets/js/transicons.js"></script>
+        <script src="${contextPath}/assets/owl-carousel/owl.carousel.min.js"></script>
+        <script type="module" src="${contextPath}/assets/js/script.js"></script>
     </body>
 </html>

@@ -15,7 +15,7 @@ $(document).ready(() => {
     const slider = (selector, items_0, items_900, items_1200) => {
         $(selector).owlCarousel({
             nav: true,
-            navText: ['<img src="/assets/images/arrowhead-left.svg" alt="prev" />', '<img src="/assets/images/arrowhead-right.svg" alt="next" />'],
+            navText: ['<img src="assets/images/arrowhead-left.svg" alt="prev" />', '<img src="assets/images/arrowhead-right.svg" alt="next" />'],
             mouseDrag: true,
             touchDrag: true,
             pullDrag: true,
@@ -46,26 +46,26 @@ $(document).ready(() => {
     const hide_sidebar = () => {
         $(".machines-container .sidebar").animate({
             left: "-330px"
-        }, 350, () => {})
+        }, 350, () => { })
         $(".machines-container .content").animate({
             width: "100%",
             marginLeft: "0px"
-        }, 350, () => {})
+        }, 350, () => { })
         $(".header .show-sidebar").css({
             display: "block"
         }).animate({
             opacity: 1
-        }, 350, () => {})
+        }, 350, () => { })
     }
 
     const show_sidebar = () => {
         $(".machines-container .sidebar").animate({
             left: "0px"
-        }, 350, () => {})
+        }, 350, () => { })
         $(".machines-container .content").animate({
             width: "calc(100% - 300px)",
             marginLeft: "300px"
-        }, 350, () => {})
+        }, 350, () => { })
         $(".header .show-sidebar").animate({
             opacity: 0
         }, 350, () => {

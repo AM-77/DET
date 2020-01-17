@@ -2,10 +2,13 @@ package com.lonix.det;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(scanBasePackages={"com.lonex.*" , "com.lonix.det.controllers"})
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 public class DETApplication extends SpringBootServletInitializer{
 
 	@Override

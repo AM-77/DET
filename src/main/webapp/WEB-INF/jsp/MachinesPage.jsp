@@ -6,15 +6,15 @@
 	<div class="sidebar list">
 		<div class="head">
 			<div class="title">
-				<div class="hide-sidebar"><img src="/assets/images/arrowhead-left.svg" alt="hide sidebar" /></div>
+				<div class="hide-sidebar"><img src="${contextPath}/assets/images/arrowhead-left.svg" alt="hide sidebar" /></div>
 				<p>machining center</p>
 				<div class="view">
-					<img class="grid-view" src="/assets/images/grid.svg" alt="grid view" />
-					<img class="list-view" src="/assets/images/list.svg" alt="list view" />
+					<img class="grid-view" src="${contextPath}/assets/images/grid.svg" alt="grid view" />
+					<img class="list-view" src="${contextPath}/assets/images/list.svg" alt="list view" />
 				</div>
 			</div>
 			<div class="search">
-				<span><img src="/assets/images/search.svg" alt="search button" /></span>
+				<span><img src="${contextPath}/assets/images/search.svg" alt="search button" /></span>
 				<input type="text" class="machine-filter" placeholder="Search">
 			</div>
 		</div>
