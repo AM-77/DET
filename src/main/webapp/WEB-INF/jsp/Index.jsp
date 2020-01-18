@@ -2,12 +2,12 @@
 <div class="home-container">
     <div class="head">
         <div class="logo">
-            <img class="logo-image" src="/assets/images/logo.png" alt="DET's Logo" />
+            <img class="logo-image" src="${contextPath}/assets/images/logo.png" alt="DET's Logo" />
             <p>Equip Yourself Big.</p>
-            <img class="go-down" src="/assets/images/arrowhead-down.svg" alt="Go Down" />
+            <img class="go-down" src="${contextPath}/assets/images/arrowhead-down.svg" alt="Go Down" />
         </div>
         <div class="machine">
-            <img class="home-machine" src="/assets/images/home-mainMachine.png" alt="DET's Logo" />
+            <img class="home-machine" src="${contextPath}/assets/images/home-mainMachine.png" alt="DET's Logo" />
         </div>
     </div>
     <div class="about-us">
@@ -23,64 +23,63 @@
             <div class="owl-carousel">
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="/vendors/product/201508/42277000-min.jpg" alt="FV-1600(A)">
+                        <img src="${contextPath}/vendors/product/201508/42277000-min.jpg" alt="FV-1600(A)">
                     </div>
                     <div class="machine-discription">
-                        <a href="/Category/centre/FV1600A">FV-1600(A)</a>
+                        <a>FV-1600(A)</a>
 
                     </div>
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="/vendors/product/201509/61146300-min.jpg" alt="VMP-50(A)">
+                        <img src="${contextPath}/vendors/product/201509/61146300-min.jpg" alt="VMP-50(A)">
                     </div>
                     <div class="machine-discription">
-                        <a href="/Category/centre/VMP50A">VMP-50(A)</a>
+                        <a>VMP-50(A)</a>
 
                     </div>
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="/vendors/product/201509/45879900-min.jpg" alt="QMP-40A">
+                        <img src="${contextPath}/vendors/product/201509/45879900-min.jpg" alt="QMP-40A">
                     </div>
                     <div class="machine-discription">
-                        <a href="/Category/centre/QMP40A">QMP-40A</a>
+                        <a>QMP-40A</a>
 
                     </div>
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="/vendors/product/201508/20773300-min.jpg" alt="FTC-20L">
+                        <img src="${contextPath}/vendors/product/201508/20773300-min.jpg" alt="FTC-20L">
                     </div>
                     <div class="machine-discription">
-                        <a href="/Category//tour/FTC20L">FTC-20L</a>
+                        <a>FTC-20L</a>
 
                     </div>
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="/vendors/product/201508/64738100-min.jpg" alt="FTC-350LY">
+                        <img src="${contextPath}/vendors/product/201508/64738100-min.jpg" alt="FTC-350LY">
                     </div>
                     <div class="machine-discription">
-                        <a href="/Category//tour/FTC350LY">FTC-350LY</a>
+                        <a>FTC-350LY</a>
 
                     </div>
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="/vendors/product/201508/60311700-min.jpg" alt="HT-30Y">
+                        <img src="${contextPath}/vendors/product/201508/60311700-min.jpg" alt="HT-30Y">
                     </div>
                     <div class="machine-discription">
-                        <a href="/Category//tour/HT30Y">HT-30Y</a>
+                        <a>HT-30Y</a>
                     </div>
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="/vendors/product/201508/89597700-min.jpg" alt="FT-250SY(MC)">
+                        <img src="${contextPath}/vendors/product/201508/89597700-min.jpg" alt="FT-250SY(MC)">
                     </div>
                     <div class="machine-discription">
-                        <a href="/Category/tour/FT250SYMC">FT-250SY(MC)</a>
-
+                        <a>FT-250SY(MC)</a>
                     </div>
                 </div>
             </div>

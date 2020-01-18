@@ -1,6 +1,5 @@
 package com.lonex.services;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lonex.enums.MachineType;
 import com.lonix.det.models.Machine;
 import com.lonix.det.models.MachineCategory;
+import org.springframework.core.io.ClassPathResource;
 
 @Service
 public class JsonFileReaderService {
@@ -24,10 +24,10 @@ public class JsonFileReaderService {
 			
 			switch ( machineType) {
 				case  Centre :
-					machines = objectMapper.readValue(new File("src/main/resources/data/centre.json"), new TypeReference<List<MachineCategory>>(){});
+					machines = objectMapper.readValue(new ClassPathResource("/data/centre.json").getFile(), new TypeReference<List<MachineCategory>>(){});
 					break;
 				case Tour :
-					machines = objectMapper.readValue(new File("src/main/resources/data/tour.json"), new TypeReference<List<MachineCategory>>(){});
+					machines = objectMapper.readValue(new ClassPathResource("/data/tour.json").getFile(), new TypeReference<List<MachineCategory>>(){});
 					break;
 				default:
 					machines=null;
@@ -102,8 +102,8 @@ public class JsonFileReaderService {
 		List<MachineCategory> machines;
 		
 		try {
-				centres = objectMapper.readValue(new File("src/main/resources/data/centre.json"), new TypeReference<List<MachineCategory>>(){});
-				machines = objectMapper.readValue(new File("src/main/resources/data/tour.json"), new TypeReference<List<MachineCategory>>(){});
+				centres = objectMapper.readValue(new ClassPathResource("/data/centre.json").getFile(), new TypeReference<List<MachineCategory>>(){});
+				machines = objectMapper.readValue(new ClassPathResource("/data/tour.json").getFile(), new TypeReference<List<MachineCategory>>(){});
 			}catch(Exception e) {e.printStackTrace(); return null;}
 		
 		for(MachineCategory machine : centres)
@@ -117,7 +117,7 @@ public class JsonFileReaderService {
 
 	public List<Machine> getMachinesFromJson() {
 		try {
-			return objectMapper.readValue(new File("src/main/resources/data/machines.json"), new TypeReference<List<Machine>>(){});
+			return objectMapper.readValue(new ClassPathResource("/data/machines.json").getFile(), new TypeReference<List<Machine>>(){});
 		
 		} catch (Exception e) {
 			e.printStackTrace();

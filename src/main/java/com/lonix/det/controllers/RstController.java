@@ -45,23 +45,23 @@ public class RstController {
 		}
 	
 	@RequestMapping("/Search/{category}")
-	public List<MachineCategory> cool(HttpServletRequest request , @PathVariable("category") String category,@RequestParam(defaultValue="") String searchQuery){
+	public List<MachineCategory> cool( @PathVariable("category") String category,@RequestParam(defaultValue="") String searchQuery){
 		
 		switch (category) {
 		
-		case "centre":
-			 machineTypes= jsonReader.getSearchMachineCategoryList(MachineType.Centre , searchQuery);
-			 return machineTypes;
-		case "tour":
-			 machineTypes= jsonReader.getSearchMachineCategoryList(MachineType.Tour , searchQuery);		
-			return machineTypes;
-			
+			case "centre":
+				machineTypes= jsonReader.getSearchMachineCategoryList(MachineType.Centre , searchQuery);
+				return machineTypes;
+			case "tour":
+				machineTypes= jsonReader.getSearchMachineCategoryList(MachineType.Tour , searchQuery);		
+				return machineTypes;
+				
 			default :{
 				System.out.println("warning no such category!");
 				return new ArrayList<MachineCategory>();
 			}
 	
-}
+		}
 		
 
 	}
