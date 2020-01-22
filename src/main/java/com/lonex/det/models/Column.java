@@ -1,7 +1,7 @@
-package com.lonix.det.models;
+package com.lonex.det.models;
 
 import java.util.List;
-import com.lonix.det.models.Feature;
+import com.lonex.det.models.Feature;
 
 public class Column {
 

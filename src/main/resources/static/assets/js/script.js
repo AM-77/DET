@@ -191,4 +191,34 @@ $(document).ready(() => {
     }
 
     if (location.pathname.indexOf("/Category") > -1) display_sidebar(location.pathname)
+
+    //* handling emails
+    $('.contact-container form button.send').on("click", function (e) {
+        e.preventDefault()
+        let name = $('.contact-container input#name').val()
+        let email = $('.contact-container input#email').val()
+        let message = $('.contact-container textarea#message').val()
+        let confirm_message = $(".contact-container .confirm-message")
+        console.log(name, email, message)
+
+        if (email == "" || message == "") {
+            confirm_message.removeClass("success")
+                .addClass("error")
+                .text("Please make sure to fill all the fields, Thank you.")
+                .fadeIn(1000, () => { confirm_message.delay(2000).fadeOut(1000) })
+            return false
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: "http://formspree.io/THE-DET-EMAIL",
+                data: `name=${name}&_replyto=${email}&message=${message}`,
+                dataType: "json"
+            })
+            confirm_message.removeClass("error")
+                .addClass("success")
+                .text("Your message has been successfully sent, Thank you.")
+                .fadeIn(1000, () => { confirm_message.delay(2000).fadeOut(1000) })
+        }
+    })
 })

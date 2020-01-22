@@ -16,7 +16,8 @@
         </div>
         <div class="form">
             <h3>E-Mail Us</h3>
-            <form action="/email" method="post">
+            <span class="confirm-message"></span>
+            <form>
                 <div class="form-head">
                     <div class="name">
                         <label for="name">Your Name:</label>
