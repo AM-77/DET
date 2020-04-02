@@ -1,4 +1,4 @@
-package com.lonix.det.controllers;
+package com.lonex.det.controllers;
 
 import java.util.List;
 
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.lonex.enums.MachineType;
-import com.lonex.services.JsonFileReaderService;
-import com.lonix.det.models.Machine;
-import com.lonix.det.models.MachineCategory;
+import com.lonex.det.enums.MachineType;
+import com.lonex.det.services.JsonFileReaderService;
+import com.lonex.det.models.Machine;
+import com.lonex.det.models.MachineCategory;
 
 @Controller
 public class MainController  implements ErrorController{

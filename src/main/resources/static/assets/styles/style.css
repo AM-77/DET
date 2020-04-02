@@ -1008,6 +1008,27 @@ h2.column-name {
     background: var(--main-color)
 }
 
+.container .contact-container .confirm-message{
+    width: auto;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: var(--white)
+}
+
+.container .contact-container .confirm-message.success{
+    background: #319c66;
+    border-color: #319c66;
+    box-shadow: 0 0 5px 0px #195d3b
+}
+
+.container .contact-container .confirm-message.error{
+    background: #d86161;
+    border-color: #d86161;
+    box-shadow: 0 0 5px 0px #9c2323
+}
+
 .error-container{
     display: flex;
     justify-content: center;
