@@ -1,18 +1,17 @@
 package com.lonex.det.controllers;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lonex.det.enums.MachineType;
-import com.lonex.det.services.JsonFileReaderService;
 import com.lonex.det.models.Machine;
 import com.lonex.det.models.MachineCategory;
+import com.lonex.det.services.JsonFileReaderService;
 
 @RestController
 public class RstController {
@@ -34,20 +33,57 @@ public class RstController {
 	
 	@RequestMapping("/Search/{category}")
 	public List<MachineCategory> cool( @PathVariable("category") String category,@RequestParam(defaultValue="") String searchQuery){
-		switch (category) {
-			case "centre":
-				machineTypes= jsonReader.getSearchMachineCategoryList(MachineType.Centre , searchQuery);
-				return machineTypes;
-
-			case "tour":
-				machineTypes= jsonReader.getSearchMachineCategoryList(MachineType.Tour , searchQuery);		
-				return machineTypes;
-				
-			default :{
-				System.out.println("warning no such category!");
-				return new ArrayList<MachineCategory>();
+		machineTypes= jsonReader.getSearchMachineCategoryList(category , searchQuery);	
+		return machineTypes;
+	}
+	
+	@RequestMapping("/admin/deleteMachine")
+	public boolean removeMachine(@RequestParam(defaultValue="") String mapName) {
+		boolean removed=false;
+		machines = jsonReader.getMachinesFromJson();
+		
+		for(Machine listMachine : machines)
+			if(listMachine.getMapName().equals(mapName))
+			{
+				machines.remove(listMachine);
+				removed = true;
+				break;
 			}
+		if(!removed)
+			return false;
+			
+		removed = false;
+		
+		machineTypes= jsonReader.getMachineTypesFromJson("centre");
+		for(MachineCategory listMachine : machineTypes)
+			if(listMachine.getMapName().equals(mapName))
+			{
+				System.out.println("found mapname in categ centre! " + mapName);
+				machineTypes.remove(listMachine);
+				removed = true;
+				break;
+			}
+		if(removed)
+		{
+			return jsonReader.updateJsonFiles(machineTypes, machines, "centre");
 		}
+		
+		machineTypes= jsonReader.getMachineTypesFromJson("tour");
+		for(MachineCategory listMachine : machineTypes)
+			if(listMachine.getMapName().equals(mapName))
+			{
+				System.out.println("found mapname in categ tour! " + mapName);
+				machineTypes.remove(listMachine);
+				removed = true;
+				break;
+			}
+		
+		if(removed)
+		{
+			return jsonReader.updateJsonFiles(machineTypes, machines, "tour");
+		}
+		
+		return false;
 	}
 	
 	public Machine getSingleMachine(String category , String mapName) {
@@ -74,17 +110,8 @@ public class RstController {
 	}
 
 	public boolean getMachineTypes(String category) {
-		switch (category) {
-			case "centre":
-				machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Centre);
-				return true;
-
-			case "tour":
-				machineTypes= jsonReader.getMachineTypesFromJson(MachineType.Tour);		
-				return true;
-
-			default: return false;
-		}
+		machineTypes= jsonReader.getMachineTypesFromJson(category);
+		return true;
 	}
 
 }

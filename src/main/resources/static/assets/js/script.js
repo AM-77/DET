@@ -155,7 +155,7 @@ $(document).ready(() => {
     const format_html = (machines, callback) => {
         let machines_html = ""
         machines.forEach(machine => {
-            machines_html += `<div class="machine" data-map-name=${machine.mapName}><div><img src="${location.origin}/${machine.imageName}" alt="${machine.machineName} machine" /><span>${machine.machineName}</span></div></div>`
+            machines_html += `<div class="machine" data-map-name=${machine.mapName}><div><img src="https://${machine.imageName}" alt="${machine.machineName} machine" /><span>${machine.machineName}</span></div></div>`
         })
         if (machines_html === "") machines_html = `<div class="machine no-machine"><span>No Machine Was Found</span></div></div>`
         $(".sidebar .machines").html(machines_html)
@@ -211,7 +211,7 @@ $(document).ready(() => {
         else {
             $.ajax({
                 type: "POST",
-                url: "http://formspree.io/THE-DET-EMAIL",
+                url: "https://formspree.io/maydjbek",
                 data: `name=${name}&_replyto=${email}&message=${message}`,
                 dataType: "json"
             })

@@ -13,20 +13,21 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter{
 		
 	@Override
 	public void configure(WebSecurity web) throws Exception {
-		web.ignoring().antMatchers("/data/**");
-		web.ignoring().antMatchers("/static/**");
+		web.ignoring().antMatchers("/assets/**");
 	}
 
-	@Override
-	protected void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests().antMatchers("/admin/log").hasRole("ADMIN").and().csrf().disable();
-		http.authorizeRequests().antMatchers("/**").permitAll();
-		http.csrf().disable();
-	}
-	        	       
-	@Override
-	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().withUser("DET").password("AMLX").roles("ADMIN");
-	}
+	    @Override
+	    protected void configure(HttpSecurity http) throws Exception {
+		  http.authorizeRequests().antMatchers("/static/**", "/data/**", "/*" ,"/Category/**" , "/login" ,"/Search*").permitAll()
+		  .antMatchers("/admin/**" , "/admin/addMachine").hasRole("ADMIN")
+		  .anyRequest().authenticated().and().formLogin().loginPage("/login").permitAll()
+		  .and().logout().permitAll();
+		  http.csrf().disable();
+	    }
+
+	    @Override
+	    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+	        auth.inMemoryAuthentication().withUser("DET").password("Det_Web_Add00").roles("ADMIN");
+	    }
 	
 }
