@@ -1,0 +1,102 @@
+[
+    {
+        "machineName": "FTC-10",
+        "mapName": "FTC10",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201512/32826900-min.png"
+    },
+    {
+        "machineName": "FTC-20",
+        "mapName": "FTC20",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201512/92197700-min.png"
+    },
+    {
+        "machineName": "FTC-20L",
+        "mapName": "FTC20L",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/20773300-min.jpg"
+    },
+    {
+        "machineName": "FTC-30",
+        "mapName": "FTC30",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201512/04272000-min.png"
+    },
+    {
+        "machineName": "FTC-300",
+        "mapName": "FTC300",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201602/44414800-min.png"
+    },
+    {
+        "machineName": "FTC-350",
+        "mapName": "FTC350",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/82899000-min.jpg"
+    },
+    {
+        "machineName": "FTC-350L",
+        "mapName": "FTC350L",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201602/31072600-min.png"
+    },
+    {
+        "machineName": "FTC-350XL",
+        "mapName": "FTC350XL",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/71884400-min.jpg"
+    },
+    {
+        "machineName": "FTC-350LY",
+        "mapName": "FTC350LY",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/64738100-min.jpg"
+    },
+    {
+        "machineName": "FTC-350SLY",
+        "mapName": "FTC640L",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/ vendors/product/201508/91843600-min.jpg"
+    },
+    {
+        "machineName": "FTC-450",
+        "mapName": "FTC640",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/ vendors/product/201508/30861200-min.jpg"
+    },
+    {
+        "machineName": "FTC-640",
+        "mapName": "FTC450",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/ vendors/product/201508/85502300-min.jpg"
+    },
+    {
+        "machineName": "FTC-640L",
+        "mapName": "FTC350SLY",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/ vendors/product/201508/85502300-min.jpg"
+    },
+    {
+        "machineName": "HT-30SY",
+        "mapName": "HT30SY",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/35491800-min.jpg"
+    },
+    {
+        "machineName": "HT-30MC",
+        "mapName": "HT30MC",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/74083400-min.jpg"
+    },
+    {
+        "machineName": "HT-30Y",
+        "mapName": "HT30Y",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/60311700-min.jpg"
+    },
+    {
+        "machineName": "FT-400",
+        "mapName": "FT400",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/37562800-min.jpg"
+    },
+    {
+        "machineName": "FT-350(MC)",
+        "mapName": "FT350",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/96510700-min.jpg"
+    },
+    {
+        "machineName": "FT-250SY(MC)",
+        "mapName": "FT250SYMC",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/89597700-min.jpg"
+    },
+    {
+        "machineName": "FT-250(MC)",
+        "mapName": "FT250MC",
+        "imageName":"s3://elasticbeanstalk-us-east-2-667976969638/vendors/product/201508/94633400-min.jpg"
+    }
+]

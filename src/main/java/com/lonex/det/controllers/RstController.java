@@ -20,7 +20,7 @@ public class RstController {
 	List<MachineCategory> machineTypes;
 	List<Machine> machines;
 	
-	@RequestMapping("/Search")
+	@RequestMapping(value="/Search",produces = "application/json")
 	public List<MachineCategory> getSearch(@RequestParam(defaultValue="") String searchQuery ) {
 		return this.jsonReader.getSearchMachineCategoryList(searchQuery);
 	}
@@ -31,7 +31,7 @@ public class RstController {
 		else return null;
 	}
 	
-	@RequestMapping("/Search/{category}")
+	@RequestMapping(value="/Search/{category}" ,produces = "application/json")
 	public List<MachineCategory> cool( @PathVariable("category") String category,@RequestParam(defaultValue="") String searchQuery){
 		machineTypes= jsonReader.getSearchMachineCategoryList(category , searchQuery);	
 		return machineTypes;

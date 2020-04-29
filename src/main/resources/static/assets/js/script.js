@@ -182,7 +182,8 @@ $(document).ready(() => {
 
     // fetching data from the API
     const display_sidebar = (pathname) => {
-        fetch(`${location.origin}/Search/${pathname.slice(pathname.lastIndexOf("/") + 1)}`)
+        fetch(`${location.origin}/Search/${pathname.slice(pathname.lastIndexOf("/") + 1)}` ,
+        		{headers : {'Content-Type' : 'application/json' ,'Accept' : 'application/json'}})
             .then(res => res.json())
             .then(res => {
                 machines_list = res
