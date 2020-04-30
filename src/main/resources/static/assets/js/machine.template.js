@@ -8,7 +8,7 @@ const features = (features_table) => {
     features += `</div>`
     return features
 }
-const machin_img = (img_name) => `<div class="machine-img"><img src="${location.origin}/${img_name}" alt="machine"></div>`
+const machin_img = (img_name) => `<div class="machine-img"><img src="https://${img_name}" alt="machine"></div>`
 const info = (features, type) => {
     let html_features = `<div class="${type}"><h2 class="column-name">${type}</h2><div class="features">`
     features.forEach(f => { html_features += `<div class="feature"><span class="title">${f.feature}</span><span class="value">${f.value}</span></div>` })

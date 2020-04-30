@@ -23,7 +23,7 @@
             <div class="owl-carousel">
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="${contextPath}/vendors/product/201508/42277000-min.jpg" alt="FV-1600(A)">
+                        <img src="https://elasticbeanstalk-us-east-2-667976969638.s3.us-east-2.amazonaws.com/vendors/product/201508/42277000-min.jpg" alt="FV-1600(A)">
                     </div>
                     <div class="machine-discription">
                         <a>FV-1600(A)</a>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="${contextPath}/vendors/product/201509/61146300-min.jpg" alt="VMP-50(A)">
+                        <img src="https://elasticbeanstalk-us-east-2-667976969638.s3.us-east-2.amazonaws.com/vendors/product/201509/61146300-min.jpg" alt="VMP-50(A)">
                     </div>
                     <div class="machine-discription">
                         <a>VMP-50(A)</a>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="${contextPath}/vendors/product/201509/45879900-min.jpg" alt="QMP-40A">
+                        <img src="https://elasticbeanstalk-us-east-2-667976969638.s3.us-east-2.amazonaws.com/vendors/product/201509/45879900-min.jpg" alt="QMP-40A">
                     </div>
                     <div class="machine-discription">
                         <a>QMP-40A</a>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="${contextPath}/vendors/product/201508/20773300-min.jpg" alt="FTC-20L">
+                        <img src="https://elasticbeanstalk-us-east-2-667976969638.s3.us-east-2.amazonaws.com/vendors/product/201508/20773300-min.jpg" alt="FTC-20L">
                     </div>
                     <div class="machine-discription">
                         <a>FTC-20L</a>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="${contextPath}/vendors/product/201508/64738100-min.jpg" alt="FTC-350LY">
+                        <img src="https://elasticbeanstalk-us-east-2-667976969638.s3.us-east-2.amazonaws.com/vendors/product/201508/64738100-min.jpg" alt="FTC-350LY">
                     </div>
                     <div class="machine-discription">
                         <a>FTC-350LY</a>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="${contextPath}/vendors/product/201508/60311700-min.jpg" alt="HT-30Y">
+                        <img src="https://elasticbeanstalk-us-east-2-667976969638.s3.us-east-2.amazonaws.com/vendors/product/201508/60311700-min.jpg" alt="HT-30Y">
                     </div>
                     <div class="machine-discription">
                         <a>HT-30Y</a>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="machine">
                     <div class="machine-image">
-                        <img src="${contextPath}/vendors/product/201508/89597700-min.jpg" alt="FT-250SY(MC)">
+                        <img src="https://elasticbeanstalk-us-east-2-667976969638.s3.us-east-2.amazonaws.com/vendors/product/201508/89597700-min.jpg" alt="FT-250SY(MC)">
                     </div>
                     <div class="machine-discription">
                         <a>FT-250SY(MC)</a>

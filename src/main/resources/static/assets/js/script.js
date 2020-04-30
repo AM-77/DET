@@ -155,7 +155,7 @@ $(document).ready(() => {
     const format_html = (machines, callback) => {
         let machines_html = ""
         machines.forEach(machine => {
-            machines_html += `<div class="machine" data-map-name=${machine.mapName}><div><img src="${location.origin}/${machine.imageName}" alt="${machine.machineName} machine" /><span>${machine.machineName}</span></div></div>`
+            machines_html += `<div class="machine" data-map-name=${machine.mapName}><div><img src="https://${machine.imageName}" alt="${machine.machineName} machine" /><span>${machine.machineName}</span></div></div>`
         })
         if (machines_html === "") machines_html = `<div class="machine no-machine"><span>No Machine Was Found</span></div></div>`
         $(".sidebar .machines").html(machines_html)
@@ -182,7 +182,8 @@ $(document).ready(() => {
 
     // fetching data from the API
     const display_sidebar = (pathname) => {
-        fetch(`${location.origin}/Search/${pathname.slice(pathname.lastIndexOf("/") + 1)}`)
+        fetch(`${location.origin}/Search/${pathname.slice(pathname.lastIndexOf("/") + 1)}` ,
+        		{headers : {'Content-Type' : 'application/json' ,'Accept' : 'application/json'}})
             .then(res => res.json())
             .then(res => {
                 machines_list = res
@@ -211,7 +212,7 @@ $(document).ready(() => {
         else {
             $.ajax({
                 type: "POST",
-                url: "http://formspree.io/THE-DET-EMAIL",
+                url: "https://formspree.io/maydjbek",
                 data: `name=${name}&_replyto=${email}&message=${message}`,
                 dataType: "json"
             })

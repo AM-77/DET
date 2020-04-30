@@ -50,7 +50,6 @@
                     <p class="copyrights">SARL DET &copy; 2015-2020</p>
                 </div>
             </div>
-        </div>
         <script src="${contextPath}/assets/js/jquery-2.2.4.min.js"></script>
         <script src="${contextPath}/assets/js/transicons.js"></script>
         <script src="${contextPath}/assets/owl-carousel/owl.carousel.min.js"></script>
